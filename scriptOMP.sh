@@ -8,8 +8,8 @@ echo "A abrir mpstat"
 mpstat -P ALL 1 100000 >> mpstat.txt &
 echo "mpstat aberto"
 
-for $th 1 4 9 16
-
+for $th in 1 4 9 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
@@ -51,8 +51,8 @@ echo "ep.C.x END" $th >> mpstat.txt
 echo "ep.C.x END" $th >> dstat.csv
 done
 
-for $th 1 4 8 16
-
+for $th in 1 4 8 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
@@ -82,8 +82,8 @@ cd ..
 echo "A entrar na pasta gcc03"
 cd gccO3
 
-for $th 1 4 9 16
-
+for $th in 1 4 9 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
@@ -125,8 +125,8 @@ echo "ep.C.x END" $th >> mpstat.txt
 echo "ep.C.x END" $th >> dstat.csv
 done
 
-for $th 1 4 8 16
-
+for $th in 1 4 8 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
@@ -156,8 +156,8 @@ cd ..
 echo "A entrar na pasta icc02"
 cd iccO2
 
-for $th 1 4 9 16
-
+for $th in 1 4 9 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
@@ -199,8 +199,8 @@ echo "ep.C.x END" $th >> mpstat.txt
 echo "ep.C.x END" $th >> dstat.csv
 done
 
-for $th 1 4 8 16
-
+for $th in 1 4 8 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
@@ -230,8 +230,8 @@ cd ..
 echo "A entrar na pasta icc03"
 cd iccO3
 
-for $th 1 4 9 16
-
+for $th in 1 4 9 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
@@ -273,8 +273,8 @@ echo "ep.C.x END" $th >> mpstat.txt
 echo "ep.C.x END" $th >> dstat.csv
 done
 
-for $th 1 4 8 16
-
+for $th in 1 4 8 16
+do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
 
