@@ -1,0 +1,639 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.000800
+ 
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.6049216577642E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.3138514254272E-14
+           3 0.2597435451158E+02 0.2597435451158E+02 0.5060776623227E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.5854730134888E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.8657283955079E-14
+ Comparison of RMS-norms of solution error
+           1 0.4234841604053E+01 0.4234841604053E+01 0.4194624039068E-15
+           2 0.4439028249700E+00 0.4439028249700E+00 0.0000000000000E+00
+           3 0.9669248013635E+00 0.9669248013635E+00 0.2296399933190E-15
+           4 0.8830206303977E+00 0.8830206303977E+00 0.0000000000000E+00
+           5 0.9737990177083E+01 0.9737990177083E+01 0.1824151397873E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    45.36
+ Mop/s total     =                  3710.26
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.000300
+ 
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.6869007100989E-14
+           2 0.9933052259015E+02 0.9933052259015E+02 0.7296383544318E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.2391995369736E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.2309751522921E-13
+           5 0.3270754125466E+04 0.3270754125466E+04 0.1112275233032E-13
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.2682819657265E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1989963674771E-15
+           3 0.1312257334221E+02 0.1312257334221E+02 0.4060995034457E-15
+           4 0.1200692532356E+02 0.1200692532356E+02 0.2958887128106E-15
+           5 0.1245957615104E+03 0.1245957615104E+03 0.2281113665977E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                   188.63
+ Mop/s total     =                  3722.49
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.000100
+ 
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.3060891865444E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.1231025265242E-13
+           3 0.1542353009301E+04 0.1542353009301E+04 0.5469281875208E-13
+           4 0.1330238792929E+04 0.1330238792929E+04 0.1145210644560E-13
+           5 0.1160408742844E+05 0.1160408742844E+05 0.7837709836141E-15
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.1191287178775E-13
+           2 0.1149710790382E+02 0.1149710790382E+02 0.2549327021655E-13
+           3 0.4120744620746E+02 0.4120744620746E+02 0.8104241260813E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.1915847230703E-13
+           5 0.3621105305184E+03 0.3621105305184E+03 0.3061072723289E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   809.89
+ Mop/s total     =                  3539.10
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark
+
+ Size:       14000
+ Iterations:    15
+ 
+ Initialization time =           0.389 seconds
+
+   iteration           ||r||                 zeta
+        1       0.20006440700678E-12    19.9997581277040
+        2       0.19438597224571E-14    17.1140495745506
+        3       0.19497659870670E-14    17.1296668946143
+        4       0.19483943338528E-14    17.1302113581192
+        5       0.19109220583308E-14    17.1302338856353
+        6       0.19360547420413E-14    17.1302349879482
+        7       0.18709487887869E-14    17.1302350498916
+        8       0.18372464224247E-14    17.1302350537510
+        9       0.18402176297111E-14    17.1302350540100
+       10       0.17925467234060E-14    17.1302350540284
+       11       0.17987328119980E-14    17.1302350540298
+       12       0.17823389622139E-14    17.1302350540299
+       13       0.17615657985047E-14    17.1302350540299
+       14       0.17384231459463E-14    17.1302350540299
+       15       0.17588775962014E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5288555499891E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     1.03
+ Mop/s total     =                  1457.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark
+
+ Size:       75000
+ Iterations:    75
+ 
+ Initialization time =           4.199 seconds
+
+   iteration           ||r||                 zeta
+        1       0.11897141850750E-12    59.9994751578754
+        2       0.47491659123961E-15    21.7627846142541
+        3       0.49747529457787E-15    22.2876617043227
+        4       0.50498706176147E-15    22.5230738188351
+        5       0.50758048786512E-15    22.6275390653891
+        6       0.51009058673947E-15    22.6740259189539
+        7       0.51604001341845E-15    22.6949056826253
+        8       0.51150430526484E-15    22.7044023166869
+        9       0.51504398567200E-15    22.7087834345619
+       10       0.51058638256373E-15    22.7108351397171
+       11       0.51023825382720E-15    22.7118107121335
+       12       0.50849662997809E-15    22.7122816240974
+       13       0.50768727333405E-15    22.7125122663245
+       14       0.50797240308272E-15    22.7126268007596
+       15       0.50895512628416E-15    22.7126844161818
+       16       0.50783415059857E-15    22.7127137461758
+       17       0.50729806688945E-15    22.7127288401997
+       18       0.50334195036738E-15    22.7127366848298
+       19       0.50425013217782E-15    22.7127407981219
+       20       0.50363136661309E-15    22.7127429721361
+       21       0.50442679541112E-15    22.7127441294026
+       22       0.50298380639236E-15    22.7127447493901
+       23       0.50718001376886E-15    22.7127450834528
+       24       0.50115963450554E-15    22.7127452643881
+       25       0.50548121386206E-15    22.7127453628461
+       26       0.50238037434986E-15    22.7127454166512
+       27       0.50056768988091E-15    22.7127454461690
+       28       0.49688337062152E-15    22.7127454624205
+       29       0.49529463871168E-15    22.7127454713972
+       30       0.49933116442513E-15    22.7127454763702
+       31       0.49709593449304E-15    22.7127454791334
+       32       0.49617448776664E-15    22.7127454806726
+       33       0.49992803846230E-15    22.7127454815327
+       34       0.49227341501518E-15    22.7127454820134
+       35       0.49559425359242E-15    22.7127454822834
+       36       0.49316778117323E-15    22.7127454824348
+       37       0.49670915693147E-15    22.7127454825208
+       38       0.48937740496612E-15    22.7127454825689
+       39       0.49060896308915E-15    22.7127454825958
+       40       0.49116855320980E-15    22.7127454826114
+       41       0.49286774064151E-15    22.7127454826202
+       42       0.49041918940585E-15    22.7127454826250
+       43       0.49068791510155E-15    22.7127454826280
+       44       0.49306493106397E-15    22.7127454826298
+       45       0.48678962168902E-15    22.7127454826305
+       46       0.48817265184269E-15    22.7127454826311
+       47       0.48894260831729E-15    22.7127454826316
+       48       0.48939431789772E-15    22.7127454826315
+       49       0.48528348544290E-15    22.7127454826315
+       50       0.48576850600092E-15    22.7127454826316
+       51       0.48378290412592E-15    22.7127454826315
+       52       0.48178964818406E-15    22.7127454826319
+       53       0.47677448908440E-15    22.7127454826315
+       54       0.48079712810111E-15    22.7127454826319
+       55       0.48033049067872E-15    22.7127454826318
+       56       0.48047469151105E-15    22.7127454826318
+       57       0.48107188003968E-15    22.7127454826317
+       58       0.47802854784896E-15    22.7127454826316
+       59       0.47749692532533E-15    22.7127454826314
+       60       0.47848944756315E-15    22.7127454826317
+       61       0.47812423129269E-15    22.7127454826316
+       62       0.47469914045650E-15    22.7127454826315
+       63       0.47696131073354E-15    22.7127454826316
+       64       0.47776763868522E-15    22.7127454826314
+       65       0.47463625546324E-15    22.7127454826317
+       66       0.47738341435348E-15    22.7127454826317
+       67       0.47623662266033E-15    22.7127454826314
+       68       0.47120205227929E-15    22.7127454826315
+       69       0.46935053895281E-15    22.7127454826315
+       70       0.47026458416316E-15    22.7127454826319
+       71       0.47095273667203E-15    22.7127454826318
+       72       0.47076526984738E-15    22.7127454826318
+       73       0.46913516954547E-15    22.7127454826316
+       74       0.47075210898588E-15    22.7127454826318
+       75       0.46943202324176E-15    22.7127454826319
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2271274548263E+02
+ Error is    0.4129471762542E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        B
+ Size            =                    75000
+ Iterations      =                       75
+ Time in seconds =                    83.81
+ Mop/s total     =                   652.75
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - CG Benchmark
+
+ Size:      150000
+ Iterations:    75
+ 
+ Initialization time =          12.983 seconds
+
+   iteration           ||r||                 zeta
+        1       0.16734390582157E-12   109.9994423237398
+        2       0.47241404681477E-15    27.3920437146527
+        3       0.47060724184428E-15    28.0339761840271
+        4       0.47211321855401E-15    28.4191507551295
+        5       0.47165797772136E-15    28.6471670038893
+        6       0.47180519747105E-15    28.7812969418433
+        7       0.47287404109680E-15    28.8600458537358
+        8       0.47045596488320E-15    28.9063145572687
+        9       0.47378580805986E-15    28.9335649214618
+       10       0.47383258006751E-15    28.9496695448996
+       11       0.47626709206469E-15    28.9592263353752
+       12       0.47155305747873E-15    28.9649233484900
+       13       0.47247305948289E-15    28.9683359248930
+       14       0.47439936787079E-15    28.9703903960011
+       15       0.47148900181470E-15    28.9716336228372
+       16       0.47408638082605E-15    28.9723898600852
+       17       0.47378811622192E-15    28.9728522692223
+       18       0.47104860889348E-15    28.9731364797779
+       19       0.47040980203147E-15    28.9733120569289
+       20       0.46750339350358E-15    28.9734210663748
+       21       0.47046563369260E-15    28.9734890760560
+       22       0.46953474492851E-15    28.9735317064862
+       23       0.46893107575086E-15    28.9735585497260
+       24       0.46902662265534E-15    28.9735755256638
+       25       0.47045578139019E-15    28.9735863059377
+       26       0.47008032190976E-15    28.9735931787366
+       27       0.47037249159713E-15    28.9735975767359
+       28       0.46857690074904E-15    28.9736004009980
+       29       0.46917459918433E-15    28.9736022206768
+       30       0.46744335501040E-15    28.9736033967626
+       31       0.46839443714873E-15    28.9736041591147
+       32       0.47079798781218E-15    28.9736046546409
+       33       0.46625623675874E-15    28.9736049775615
+       34       0.46630723808152E-15    28.9736051885107
+       35       0.46691442233898E-15    28.9736053266258
+       36       0.46600494593849E-15    28.9736054172456
+       37       0.46560085571077E-15    28.9736054768223
+       38       0.46806137071355E-15    28.9736055160636
+       39       0.46528851635702E-15    28.9736055419576
+       40       0.46691018098438E-15    28.9736055590701
+       41       0.46358687391746E-15    28.9736055703980
+       42       0.46659605000257E-15    28.9736055779076
+       43       0.46740320874753E-15    28.9736055828935
+       44       0.46567805962477E-15    28.9736055862070
+       45       0.46462385307971E-15    28.9736055884129
+       46       0.46225906479245E-15    28.9736055898831
+       47       0.46400739754799E-15    28.9736055908639
+       48       0.46402707098894E-15    28.9736055915176
+       49       0.46134640195408E-15    28.9736055919553
+       50       0.46078005263306E-15    28.9736055922493
+       51       0.46234545529072E-15    28.9736055924446
+       52       0.46208809316931E-15    28.9736055925759
+       53       0.46214059894624E-15    28.9736055926634
+       54       0.46340652238021E-15    28.9736055927229
+       55       0.46203636216533E-15    28.9736055927627
+       56       0.46148099686972E-15    28.9736055927901
+       57       0.46223321514430E-15    28.9736055928086
+       58       0.46055315965331E-15    28.9736055928198
+       59       0.45922784243320E-15    28.9736055928293
+       60       0.46180653636619E-15    28.9736055928339
+       61       0.46010948972906E-15    28.9736055928380
+       62       0.45886270210029E-15    28.9736055928404
+       63       0.45958991916658E-15    28.9736055928418
+       64       0.46026473876949E-15    28.9736055928419
+       65       0.45552562431626E-15    28.9736055928438
+       66       0.45563708282267E-15    28.9736055928444
+       67       0.45755747385196E-15    28.9736055928450
+       68       0.45735133390579E-15    28.9736055928444
+       69       0.45715625986013E-15    28.9736055928461
+       70       0.45774473634092E-15    28.9736055928448
+       71       0.45751715784468E-15    28.9736055928457
+       72       0.45651382817484E-15    28.9736055928459
+       73       0.45625685357855E-15    28.9736055928442
+       74       0.45795462567620E-15    28.9736055928455
+       75       0.45519991683518E-15    28.9736055928446
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559284E+02
+ Error is    0.1410118156516E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                   237.36
+ Mop/s total     =                   603.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark
+
+ Number of random numbers generated:       536870912
+ 
+EP Benchmark Results:
+
+CPU Time =    6.6350
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =    -4.295875165629885D+03   -1.580732573678432D+04
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                     6.64
+ Mop/s total     =                    80.91
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ 
+EP Benchmark Results:
+
+CPU Time =   26.5336
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441498D+04   -2.660669192809233D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    26.53
+ Mop/s total     =                    80.93
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks (NPB3.3-SER) - EP Benchmark
+
+ Number of random numbers generated:      8589934592
+ 
+EP Benchmark Results:
+
+CPU Time =  105.3467
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367927994629D+04   -8.084072988037116D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                   105.35
+ Mop/s total     =                    81.54
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    F77          = ifort
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fdefault-integer-8
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
