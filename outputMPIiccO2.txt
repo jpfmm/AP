@@ -1,0 +1,3096 @@
+--------------------------------------------------------------------------
+[[25311,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:     1
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.8416301325415E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.6904731359398E-14
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3556221410916E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.1396127955243E-13
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1124322591569E-13
+ Comparison of RMS-norms of solution error
+           1 0.4234841604053E+01 0.4234841604053E+01 0.4194624039068E-15
+           2 0.4439028249700E+00 0.4439028249700E+00 0.0000000000000E+00
+           3 0.9669248013635E+00 0.9669248013635E+00 0.1148199966595E-15
+           4 0.8830206303977E+00 0.8830206303977E+00 0.1257301343147E-15
+           5 0.9737990177083E+01 0.9737990177083E+01 0.0000000000000E+00
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                   120.60
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                  1395.37
+ Mop/s/process   =                  1395.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[25337,1],3]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.3138514254272E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.1641332958884E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.5704608849378E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1439132917208E-13
+ Comparison of RMS-norms of solution error
+           1 0.4234841604053E+01 0.4234841604053E+01 0.1048656009767E-14
+           2 0.4439028249700E+00 0.4439028249700E+00 0.6752834174215E-14
+           3 0.9669248013635E+00 0.9669248013635E+00 0.3100139909806E-14
+           4 0.8830206303977E+00 0.8830206303977E+00 0.6286506715733E-15
+           5 0.9737990177083E+01 0.9737990177083E+01 0.1824151397873E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    30.59
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  5500.80
+ Mop/s/process   =                  1375.20
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[25327,1],3]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:     9
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7495768367948E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.1412331414422E-14
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3692999157490E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.7506064275498E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1484105820871E-13
+ Comparison of RMS-norms of solution error
+           1 0.4234841604053E+01 0.4234841604053E+01 0.2097312019534E-15
+           2 0.4439028249700E+00 0.4439028249700E+00 0.8378516475416E-14
+           3 0.9669248013635E+00 0.9669248013635E+00 0.8037399766163E-15
+           4 0.8830206303977E+00 0.8830206303977E+00 0.3771904029440E-15
+           5 0.9737990177083E+01 0.9737990177083E+01 0.5472454193620E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    80.82
+ Total processes =                        9
+ Compiled procs  =                        9
+ Mop/s total     =                  2082.19
+ Mop/s/process   =                   231.35
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[25247,1],3]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200    dt:   0.0008000
+ Number of active processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7627273076157E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.1255405701709E-14
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8106549417537E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1360430335798E-13
+ Comparison of RMS-norms of solution error
+           1 0.4234841604053E+01 0.4234841604053E+01 0.1258387211720E-14
+           2 0.4439028249700E+00 0.4439028249700E+00 0.5627361811846E-14
+           3 0.9669248013635E+00 0.9669248013635E+00 0.8037399766163E-15
+           4 0.8830206303977E+00 0.8830206303977E+00 0.1508761611776E-14
+           5 0.9737990177083E+01 0.9737990177083E+01 0.4925208774258E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                    64.13
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                  2623.92
+ Mop/s/process   =                   163.99
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[25227,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     1
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.7348240154546E-14
+           2 0.9933052259015E+02 0.9933052259015E+02 0.1287597096056E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5102923455436E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.1644823054201E-13
+           5 0.3270754125466E+04 0.3270754125466E+04 0.7090754610576E-14
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.4024229485897E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1989963674771E-15
+           3 0.1312257334221E+02 0.1312257334221E+02 0.4060995034457E-15
+           4 0.1200692532356E+02 0.1200692532356E+02 0.2958887128106E-15
+           5 0.1245957615104E+03 0.1245957615104E+03 0.2281113665977E-15
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                   505.89
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                  1388.02
+ Mop/s/process   =                  1388.02
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[31951,1],2]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1022363847589E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.2432127848106E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.5262389813419E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.1224868231852E-13
+           5 0.3270754125466E+04 0.3270754125466E+04 0.9871442693156E-14
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.9389868800427E-15
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1293476388601E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.1258908460682E-13
+           4 0.1200692532356E+02 0.1200692532356E+02 0.6805440394643E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1003690013030E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                   153.77
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  4566.41
+ Mop/s/process   =                  1141.60
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[32263,1],8]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-16
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:     9
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1038338282708E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.2718260536119E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.1116264505877E-13
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9798945854817E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.6534616994061E-14
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.3487665554444E-14
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1253677115106E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.9475655080399E-14
+           4 0.1200692532356E+02 0.1200692532356E+02 0.9468438809938E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1186179106308E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                   150.03
+ Total processes =                        9
+ Compiled procs  =                        9
+ Mop/s total     =                  4680.14
+ Mop/s/process   =                   520.02
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[32301,1],8]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-16
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200    dt:   0.0003000
+ Number of active processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.1022363847589E-13
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3004393224131E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9408515120961E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.9274002326880E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.6812685802319E-14
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.4694934400213E-14
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1253677115106E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.7580524064319E-14
+           4 0.1200692532356E+02 0.1200692532356E+02 0.9616383166343E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1243206947957E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                   408.34
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                  1719.58
+ Mop/s/process   =                   107.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[31176,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:     1
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+--------------------------------------------------------------------------
+[[32346,1],2]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:     4
+
+--------------------------------------------------------------------------
+[[21835,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:     1
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.1136902692879E-13
+           2 0.5079323919042E+03 0.5079323919042E+03 0.6155126326210E-14
+           3 0.1542353009301E+04 0.1542353009301E+04 0.5808347867471E-13
+           4 0.1330238792929E+04 0.1330238792929E+04 0.1162303340748E-13
+           5 0.1160408742844E+05 0.1160408742844E+05 0.1097279377060E-14
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.1191287178775E-13
+           2 0.1149710790382E+02 0.1149710790382E+02 0.2549327021655E-13
+           3 0.4120744620746E+02 0.4120744620746E+02 0.8104241260813E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.1915847230703E-13
+           5 0.3621105305184E+03 0.3621105305184E+03 0.3045374914452E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                  2062.97
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                  1389.40
+ Mop/s/process   =                  1389.40
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21822,1],3]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.8745405329840E-15
+           2 0.5079323919042E+03 0.5079323919042E+03 0.3357341632478E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.7960679818362E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.4785954932491E-14
+           5 0.1160408742844E+05 0.1160408742844E+05 0.9875514393537E-14
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.3453006315289E-15
+           2 0.1149710790382E+02 0.1149710790382E+02 0.3244598027561E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1379445320989E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.9770820876587E-14
+           5 0.3621105305184E+03 0.3621105305184E+03 0.3139561767476E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   523.91
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  5470.91
+ Mop/s/process   =                  1367.73
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21720,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:     9
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.1311810799476E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.1566759428490E-14
+           3 0.1542353009301E+04 0.1542353009301E+04 0.3095819929363E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.5127808856241E-15
+           5 0.1160408742844E+05 0.1160408742844E+05 0.2978329737733E-14
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.1208552210351E-14
+           2 0.1149710790382E+02 0.1149710790382E+02 0.4480635371394E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1034583990742E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.3640109738337E-14
+           5 0.3621105305184E+03 0.3621105305184E+03 0.1569780883738E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   380.39
+ Total processes =                        9
+ Compiled procs  =                        9
+ Mop/s total     =                  7535.04
+ Mop/s/process   =                   837.23
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21698,1],9]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-18
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- BT Benchmark 
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200    dt:   0.0001000
+ Number of active processes:    16
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.1166054043979E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.1119113877493E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.1916459956272E-14
+           4 0.1330238792929E+04 0.1330238792929E+04 0.1367415694998E-14
+           5 0.1160408742844E+05 0.1160408742844E+05 0.1724296163951E-14
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.2935055367995E-14
+           2 0.1149710790382E+02 0.1149710790382E+02 0.2317570019686E-14
+           3 0.4120744620746E+02 0.4120744620746E+02 0.1207014655866E-14
+           4 0.3708765105969E+02 0.3708765105969E+02 0.1149508338422E-14
+           5 0.3621105305184E+03 0.3621105305184E+03 0.2982583679102E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                   271.46
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 10558.83
+ Mop/s/process   =                   659.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21643,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:       536870912
+ Number of active processes:                       1
+
+EP Benchmark Results:
+
+CPU Time =   13.2351
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =    -4.295875165629885D+03   -1.580732573678432D+04
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                    13.24
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                    40.56
+ Mop/s/process   =                    40.56
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21633,1],2]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:       536870912
+ Number of active processes:                       4
+
+EP Benchmark Results:
+
+CPU Time =    3.3196
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =    -4.295875165634796D+03   -1.580732573678614D+04
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                     3.32
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                   161.73
+ Mop/s/process   =                    40.43
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21687,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:       536870912
+ Number of active processes:                       9
+
+EP Benchmark Results:
+
+CPU Time =    2.2560
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =    -4.295875165630852D+03   -1.580732573678858D+04
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                     2.26
+ Total processes =                        9
+ Compiled procs  =                        9
+ Mop/s total     =                   237.97
+ Mop/s/process   =                    26.44
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21669,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:       536870912
+ Number of active processes:                      16
+
+EP Benchmark Results:
+
+CPU Time =    1.0953
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =    -4.295875165634030D+03   -1.580732573678527D+04
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                     1.10
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                   490.14
+ Mop/s/process   =                    30.63
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21595,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       1
+
+EP Benchmark Results:
+
+CPU Time =   53.0418
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441498D+04   -2.660669192809233D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    53.04
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                    40.49
+ Mop/s/process   =                    40.49
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21587,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       4
+
+EP Benchmark Results:
+
+CPU Time =   13.3930
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441964D+04   -2.660669192811221D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                    13.39
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                   160.34
+ Mop/s/process   =                    40.09
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21569,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                       9
+
+EP Benchmark Results:
+
+CPU Time =    7.7259
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542440499D+04   -2.660669192811050D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                     7.73
+ Total processes =                        9
+ Compiled procs  =                        9
+ Mop/s total     =                   277.96
+ Mop/s/process   =                    30.88
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21623,1],10]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-18
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of active processes:                      16
+
+EP Benchmark Results:
+
+CPU Time =    4.3100
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441772D+04   -2.660669192810397D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                     4.31
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                   498.26
+ Mop/s/process   =                    31.14
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21605,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      8589934592
+ Number of active processes:                       1
+
+EP Benchmark Results:
+
+CPU Time =  212.1192
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367927994629D+04   -8.084072988037116D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                   212.12
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                    40.50
+ Mop/s/process   =                    40.50
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21529,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      8589934592
+ Number of active processes:                       4
+
+EP Benchmark Results:
+
+CPU Time =   53.1085
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367927995943D+04   -8.084072988039246D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                    53.11
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                   161.74
+ Mop/s/process   =                    40.44
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21512,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      8589934592
+ Number of active processes:                       9
+
+EP Benchmark Results:
+
+CPU Time =   29.3555
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367928000842D+04   -8.084072988048580D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                    29.36
+ Total processes =                        9
+ Compiled procs  =                        9
+ Mop/s total     =                   292.62
+ Mop/s/process   =                    32.51
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21566,1],8]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-18
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+ NAS Parallel Benchmarks 3.3 -- EP Benchmark
+
+ Number of random numbers generated:      8589934592
+ Number of active processes:                      16
+
+EP Benchmark Results:
+
+CPU Time =   16.2987
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     4.764367927997306D+04   -8.084072988045780D+04
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                    16.30
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                   527.03
+ Mop/s/process   =                    32.94
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21548,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      14000
+ Iterations:    15
+ Number of active processes:     1
+ Number of nonzeroes per row:       11
+ Eigenvalue shift: .200E+02
+
+   iteration           ||r||                 zeta
+        1       0.27996472240727E-12    19.9997581277040
+        2       0.26821819914937E-14    17.1140495745506
+        3       0.26733362834694E-14    17.1296668946143
+        4       0.26761666095276E-14    17.1302113581192
+        5       0.26436178252350E-14    17.1302338856353
+        6       0.26400529905018E-14    17.1302349879482
+        7       0.26498060071092E-14    17.1302350498916
+        8       0.26438647187690E-14    17.1302350537510
+        9       0.26234689055816E-14    17.1302350540101
+       10       0.26122122713082E-14    17.1302350540284
+       11       0.25897548317069E-14    17.1302350540298
+       12       0.25647006929076E-14    17.1302350540299
+       13       0.25885708850701E-14    17.1302350540299
+       14       0.25285109024747E-14    17.1302350540299
+       15       0.25233280613206E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5288555499891E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     2.88
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   519.73
+ Mop/s/process   =                   519.73
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[21547,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      14000
+ Iterations:    15
+ Number of active processes:     4
+ Number of nonzeroes per row:       11
+ Eigenvalue shift: .200E+02
+
+   iteration           ||r||                 zeta
+        1       0.30655380772043E-12    19.9997581277040
+        2       0.30212942517482E-14    17.1140495745506
+        3       0.30986294431186E-14    17.1296668946143
+        4       0.31287645122928E-14    17.1302113581193
+        5       0.30766462855872E-14    17.1302338856353
+        6       0.31521577989290E-14    17.1302349879482
+        7       0.30140864996528E-14    17.1302350498916
+        8       0.30364509436542E-14    17.1302350537510
+        9       0.30343163874529E-14    17.1302350540101
+       10       0.30190112092991E-14    17.1302350540284
+       11       0.30317515649278E-14    17.1302350540298
+       12       0.30092199513244E-14    17.1302350540299
+       13       0.29741982074102E-14    17.1302350540299
+       14       0.30350683520766E-14    17.1302350540299
+       15       0.29799376950887E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.66
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  2263.92
+ Mop/s/process   =                   565.98
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22489,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      14000
+ Iterations:    15
+ Number of active processes:     8
+ Number of nonzeroes per row:       11
+ Eigenvalue shift: .200E+02
+
+   iteration           ||r||                 zeta
+        1       0.26666708886780E-12    19.9997581277040
+        2       0.26637899511587E-14    17.1140495745506
+        3       0.26436155374909E-14    17.1296668946143
+        4       0.26579279330315E-14    17.1302113581193
+        5       0.26626254429154E-14    17.1302338856353
+        6       0.26289651385882E-14    17.1302349879482
+        7       0.26157983357446E-14    17.1302350498916
+        8       0.26017141311701E-14    17.1302350537510
+        9       0.25783934201626E-14    17.1302350540101
+       10       0.25859160449888E-14    17.1302350540284
+       11       0.25801080161174E-14    17.1302350540298
+       12       0.25146731187020E-14    17.1302350540299
+       13       0.25235701890410E-14    17.1302350540299
+       14       0.25192989189895E-14    17.1302350540299
+       15       0.24903808728515E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     2.08
+ Total processes =                        8
+ Compiled procs  =                        8
+ Mop/s total     =                   720.39
+ Mop/s/process   =                    90.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22479,1],9]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-18
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      14000
+ Iterations:    15
+ Number of active processes:    16
+ Number of nonzeroes per row:       11
+ Eigenvalue shift: .200E+02
+
+   iteration           ||r||                 zeta
+        1       0.26666708886780E-12    19.9997581277040
+        2       0.26637899511587E-14    17.1140495745506
+        3       0.26436155374909E-14    17.1296668946143
+        4       0.26579279330315E-14    17.1302113581193
+        5       0.26626254429154E-14    17.1302338856353
+        6       0.26289651385882E-14    17.1302349879482
+        7       0.26157983357446E-14    17.1302350498916
+        8       0.26017141311701E-14    17.1302350537510
+        9       0.25783934201626E-14    17.1302350540101
+       10       0.25859160449888E-14    17.1302350540284
+       11       0.25801080161174E-14    17.1302350540298
+       12       0.25146731187020E-14    17.1302350540299
+       13       0.25235701890410E-14    17.1302350540299
+       14       0.25192989189895E-14    17.1302350540299
+       15       0.24903808728515E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     3.17
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                   472.00
+ Mop/s/process   =                    29.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22525,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+   iteration           ||r||                 zeta
+        1       0.30376182803112E-12    59.9994751578754
+        2       0.11221207341668E-14    21.7627846142541
+        3       0.11272499155381E-14    22.2876617043227
+        4       0.11203280079543E-14    22.5230738188351
+        5       0.11289372872817E-14    22.6275390653891
+        6       0.11286877942934E-14    22.6740259189539
+        7       0.11315423398851E-14    22.6949056826253
+        8       0.11378259278052E-14    22.7044023166870
+        9       0.11441277793819E-14    22.7087834345619
+       10       0.11343122389229E-14    22.7108351397172
+       11       0.11338827047010E-14    22.7118107121335
+       12       0.11379832824769E-14    22.7122816240974
+       13       0.11296112016548E-14    22.7125122663245
+       14       0.11370163723473E-14    22.7126268007596
+       15       0.11389990653110E-14    22.7126844161817
+       16       0.11384135256828E-14    22.7127137461758
+       17       0.11378689571317E-14    22.7127288401997
+       18       0.11440716185217E-14    22.7127366848298
+       19       0.11350048500344E-14    22.7127407981218
+       20       0.11323723372199E-14    22.7127429721361
+       21       0.11351329086828E-14    22.7127441294026
+       22       0.11291985434710E-14    22.7127447493901
+       23       0.11370613768248E-14    22.7127450834528
+       24       0.11391177532573E-14    22.7127452643881
+       25       0.11288608498889E-14    22.7127453628461
+       26       0.11381836583198E-14    22.7127454166512
+       27       0.11261972395086E-14    22.7127454461690
+       28       0.11335394252333E-14    22.7127454624205
+       29       0.11424221175565E-14    22.7127454713972
+       30       0.11322080966578E-14    22.7127454763702
+       31       0.11410446830041E-14    22.7127454791333
+       32       0.11317158162180E-14    22.7127454806726
+       33       0.11247586312274E-14    22.7127454815327
+       34       0.11245949821753E-14    22.7127454820134
+       35       0.11297138218176E-14    22.7127454822834
+       36       0.11311476498189E-14    22.7127454824348
+       37       0.11415050750290E-14    22.7127454825208
+       38       0.11344071731914E-14    22.7127454825689
+       39       0.11374847025513E-14    22.7127454825958
+       40       0.11339693693727E-14    22.7127454826114
+       41       0.11270156033997E-14    22.7127454826202
+       42       0.11320800066592E-14    22.7127454826250
+       43       0.11256910168088E-14    22.7127454826280
+       44       0.11271660821874E-14    22.7127454826298
+       45       0.11272709883405E-14    22.7127454826305
+       46       0.11258733597321E-14    22.7127454826311
+       47       0.11287875513092E-14    22.7127454826316
+       48       0.11258493510099E-14    22.7127454826315
+       49       0.11288507650797E-14    22.7127454826315
+       50       0.11265675318245E-14    22.7127454826316
+       51       0.11229276445621E-14    22.7127454826316
+       52       0.11293691632998E-14    22.7127454826319
+       53       0.11358613818587E-14    22.7127454826315
+       54       0.11303121074444E-14    22.7127454826319
+       55       0.11312941529804E-14    22.7127454826318
+       56       0.11259829021662E-14    22.7127454826318
+       57       0.11284312957027E-14    22.7127454826317
+       58       0.11275050792931E-14    22.7127454826316
+       59       0.11249112109060E-14    22.7127454826314
+       60       0.11180860218206E-14    22.7127454826317
+       61       0.11199522345978E-14    22.7127454826316
+       62       0.11256194111526E-14    22.7127454826314
+       63       0.11245401069637E-14    22.7127454826316
+       64       0.11209960718262E-14    22.7127454826314
+       65       0.11214925975137E-14    22.7127454826317
+       66       0.11178436174400E-14    22.7127454826317
+       67       0.11191807795717E-14    22.7127454826314
+       68       0.11204028573405E-14    22.7127454826315
+       69       0.11181395126553E-14    22.7127454826315
+       70       0.11176831115342E-14    22.7127454826318
+       71       0.11188246894956E-14    22.7127454826318
+       72       0.11260154729615E-14    22.7127454826318
+       73       0.11264248030810E-14    22.7127454826316
+       74       0.11235231306589E-14    22.7127454826318
+       75       0.11135042075397E-14    22.7127454826319
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2271274548263E+02
+ Error is    0.4129471762542E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        B
+ Size            =                    75000
+ Iterations      =                       75
+ Time in seconds =                   134.07
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   408.05
+ Mop/s/process   =                   408.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22512,1],2]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+   iteration           ||r||                 zeta
+        1       0.22543561720669E-12    59.9994751578754
+        2       0.87786713742762E-15    21.7627846142538
+        3       0.91608857861785E-15    22.2876617043225
+        4       0.94123583984669E-15    22.5230738188351
+        5       0.95139205822065E-15    22.6275390653890
+        6       0.95289473597738E-15    22.6740259189537
+        7       0.96242139212343E-15    22.6949056826254
+        8       0.95828003594580E-15    22.7044023166871
+        9       0.95690464069775E-15    22.7087834345617
+       10       0.96587726783008E-15    22.7108351397172
+       11       0.96178850610803E-15    22.7118107121336
+       12       0.96156799623586E-15    22.7122816240973
+       13       0.96013768810928E-15    22.7125122663244
+       14       0.95732758003235E-15    22.7126268007596
+       15       0.95788394481391E-15    22.7126844161817
+       16       0.95947301944847E-15    22.7127137461758
+       17       0.95678310744326E-15    22.7127288401998
+       18       0.95847285728107E-15    22.7127366848297
+       19       0.95887433822042E-15    22.7127407981220
+       20       0.95884962507380E-15    22.7127429721364
+       21       0.95376717125854E-15    22.7127441294029
+       22       0.95585335967499E-15    22.7127447493901
+       23       0.95552297611400E-15    22.7127450834527
+       24       0.95903651747667E-15    22.7127452643880
+       25       0.95539673203557E-15    22.7127453628459
+       26       0.95564652854156E-15    22.7127454166515
+       27       0.95407308146332E-15    22.7127454461692
+       28       0.95532160096764E-15    22.7127454624206
+       29       0.96218464414434E-15    22.7127454713970
+       30       0.94603812913479E-15    22.7127454763704
+       31       0.95317280863095E-15    22.7127454791336
+       32       0.94813564948634E-15    22.7127454806728
+       33       0.95371508119903E-15    22.7127454815324
+       34       0.95163491280725E-15    22.7127454820135
+       35       0.95658058362902E-15    22.7127454822833
+       36       0.95459610082900E-15    22.7127454824350
+       37       0.95047035561492E-15    22.7127454825204
+       38       0.95603480187758E-15    22.7127454825688
+       39       0.95194313627848E-15    22.7127454825960
+       40       0.95234668799737E-15    22.7127454826114
+       41       0.94728976220182E-15    22.7127454826202
+       42       0.95011233365819E-15    22.7127454826251
+       43       0.94466808734183E-15    22.7127454826279
+       44       0.94993272856789E-15    22.7127454826295
+       45       0.94813688463184E-15    22.7127454826306
+       46       0.94644880846785E-15    22.7127454826310
+       47       0.94841733297066E-15    22.7127454826311
+       48       0.95055303920083E-15    22.7127454826314
+       49       0.94280133041827E-15    22.7127454826315
+       50       0.95153119475341E-15    22.7127454826316
+       51       0.94622249232952E-15    22.7127454826316
+       52       0.94828861551891E-15    22.7127454826317
+       53       0.94535968184732E-15    22.7127454826316
+       54       0.94355257248172E-15    22.7127454826318
+       55       0.93935231526134E-15    22.7127454826317
+       56       0.94755518356012E-15    22.7127454826316
+       57       0.94669032243824E-15    22.7127454826317
+       58       0.94854788487157E-15    22.7127454826317
+       59       0.94280742379398E-15    22.7127454826317
+       60       0.94168648892357E-15    22.7127454826317
+       61       0.94359918826553E-15    22.7127454826316
+       62       0.94627350920270E-15    22.7127454826317
+       63       0.94117988232740E-15    22.7127454826318
+       64       0.94394235500040E-15    22.7127454826317
+       65       0.94145210687376E-15    22.7127454826317
+       66       0.93730304513539E-15    22.7127454826317
+       67       0.94430794061193E-15    22.7127454826317
+       68       0.93640173681280E-15    22.7127454826316
+       69       0.94096519900312E-15    22.7127454826317
+       70       0.94339897092033E-15    22.7127454826317
+       71       0.94230788835113E-15    22.7127454826317
+       72       0.93941054641269E-15    22.7127454826317
+       73       0.93646792220556E-15    22.7127454826317
+       74       0.94046086969617E-15    22.7127454826317
+       75       0.94341887082417E-15    22.7127454826316
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2271274548263E+02
+ Error is    0.2596561790083E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        B
+ Size            =                    75000
+ Iterations      =                       75
+ Time in seconds =                    35.21
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  1553.93
+ Mop/s/process   =                   388.48
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22502,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:     8
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+   iteration           ||r||                 zeta
+        1       0.16854370295155E-12    59.9994751578754
+        2       0.67725360198161E-15    21.7627846142538
+        3       0.71913007596370E-15    22.2876617043224
+        4       0.74139403026024E-15    22.5230738188351
+        5       0.74625159823766E-15    22.6275390653890
+        6       0.74953385118220E-15    22.6740259189537
+        7       0.76181421095013E-15    22.6949056826254
+        8       0.75681337487285E-15    22.7044023166871
+        9       0.75901339219649E-15    22.7087834345616
+       10       0.75996069699996E-15    22.7108351397172
+       11       0.75419489190180E-15    22.7118107121337
+       12       0.75898408464596E-15    22.7122816240973
+       13       0.75270159022746E-15    22.7125122663246
+       14       0.75299671521305E-15    22.7126268007597
+       15       0.75489393541295E-15    22.7126844161817
+       16       0.75239169484133E-15    22.7127137461758
+       17       0.75322912929387E-15    22.7127288401997
+       18       0.75605070196872E-15    22.7127366848298
+       19       0.75214391858827E-15    22.7127407981219
+       20       0.75672780387240E-15    22.7127429721363
+       21       0.75389418909553E-15    22.7127441294028
+       22       0.75197425607038E-15    22.7127447493899
+       23       0.74542758722509E-15    22.7127450834529
+       24       0.74912061602849E-15    22.7127452643879
+       25       0.75129830711388E-15    22.7127453628460
+       26       0.75262537734323E-15    22.7127454166513
+       27       0.75119076864685E-15    22.7127454461692
+       28       0.75283534725213E-15    22.7127454624205
+       29       0.75649007825274E-15    22.7127454713970
+       30       0.74891315536914E-15    22.7127454763705
+       31       0.74667070779748E-15    22.7127454791336
+       32       0.74863060539791E-15    22.7127454806729
+       33       0.75285913369039E-15    22.7127454815324
+       34       0.75376861385432E-15    22.7127454820135
+       35       0.74749613779941E-15    22.7127454822834
+       36       0.74537442373547E-15    22.7127454824351
+       37       0.74738225055424E-15    22.7127454825205
+       38       0.74381915292923E-15    22.7127454825688
+       39       0.74576591923885E-15    22.7127454825960
+       40       0.74926238016525E-15    22.7127454826113
+       41       0.74069970611367E-15    22.7127454826202
+       42       0.74554983733501E-15    22.7127454826251
+       43       0.74305702950581E-15    22.7127454826279
+       44       0.74166849424159E-15    22.7127454826295
+       45       0.74466071678693E-15    22.7127454826305
+       46       0.73872957637193E-15    22.7127454826310
+       47       0.74220519438307E-15    22.7127454826313
+       48       0.74423831739355E-15    22.7127454826314
+       49       0.74016474173850E-15    22.7127454826316
+       50       0.74212027136253E-15    22.7127454826316
+       51       0.73702304158582E-15    22.7127454826317
+       52       0.74165505042682E-15    22.7127454826317
+       53       0.74059194309515E-15    22.7127454826317
+       54       0.73865986841840E-15    22.7127454826317
+       55       0.73753279181157E-15    22.7127454826317
+       56       0.73749442308885E-15    22.7127454826317
+       57       0.74165278591030E-15    22.7127454826317
+       58       0.73890132057218E-15    22.7127454826317
+       59       0.73289952605217E-15    22.7127454826317
+       60       0.73299853736487E-15    22.7127454826316
+       61       0.73657514306609E-15    22.7127454826317
+       62       0.73544684305933E-15    22.7127454826317
+       63       0.73418451135951E-15    22.7127454826317
+       64       0.73463612207391E-15    22.7127454826317
+       65       0.73129650370410E-15    22.7127454826317
+       66       0.73357231660938E-15    22.7127454826317
+       67       0.73472582443971E-15    22.7127454826317
+       68       0.73585550456030E-15    22.7127454826317
+       69       0.73312577073259E-15    22.7127454826317
+       70       0.73056196772689E-15    22.7127454826317
+       71       0.73189018316034E-15    22.7127454826317
+       72       0.73054994416940E-15    22.7127454826316
+       73       0.72472544958851E-15    22.7127454826317
+       74       0.72870373999870E-15    22.7127454826317
+       75       0.73082325925898E-15    22.7127454826317
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2271274548263E+02
+ Error is    0.3128387698896E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        B
+ Size            =                    75000
+ Iterations      =                       75
+ Time in seconds =                    58.08
+ Total processes =                        8
+ Compiled procs  =                        8
+ Mop/s total     =                   942.01
+ Mop/s/process   =                   117.75
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22419,1],9]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-18
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      75000
+ Iterations:    75
+ Number of active processes:    16
+ Number of nonzeroes per row:       13
+ Eigenvalue shift: .600E+02
+
+   iteration           ||r||                 zeta
+        1       0.16854370295155E-12    59.9994751578754
+        2       0.67725360198161E-15    21.7627846142538
+        3       0.71913007596370E-15    22.2876617043224
+        4       0.74139403026024E-15    22.5230738188351
+        5       0.74625159823766E-15    22.6275390653890
+        6       0.74953385118220E-15    22.6740259189537
+        7       0.76181421095013E-15    22.6949056826254
+        8       0.75681337487285E-15    22.7044023166871
+        9       0.75901339219649E-15    22.7087834345616
+       10       0.75996069699996E-15    22.7108351397172
+       11       0.75419489190180E-15    22.7118107121337
+       12       0.75898408464596E-15    22.7122816240973
+       13       0.75270159022746E-15    22.7125122663246
+       14       0.75299671521305E-15    22.7126268007597
+       15       0.75489393541295E-15    22.7126844161817
+       16       0.75239169484133E-15    22.7127137461758
+       17       0.75322912929387E-15    22.7127288401997
+       18       0.75605070196872E-15    22.7127366848298
+       19       0.75214391858827E-15    22.7127407981219
+       20       0.75672780387240E-15    22.7127429721363
+       21       0.75389418909553E-15    22.7127441294028
+       22       0.75197425607038E-15    22.7127447493899
+       23       0.74542758722509E-15    22.7127450834529
+       24       0.74912061602849E-15    22.7127452643879
+       25       0.75129830711388E-15    22.7127453628460
+       26       0.75262537734323E-15    22.7127454166513
+       27       0.75119076864685E-15    22.7127454461692
+       28       0.75283534725213E-15    22.7127454624205
+       29       0.75649007825274E-15    22.7127454713970
+       30       0.74891315536914E-15    22.7127454763705
+       31       0.74667070779748E-15    22.7127454791336
+       32       0.74863060539791E-15    22.7127454806729
+       33       0.75285913369039E-15    22.7127454815324
+       34       0.75376861385432E-15    22.7127454820135
+       35       0.74749613779941E-15    22.7127454822834
+       36       0.74537442373547E-15    22.7127454824351
+       37       0.74738225055424E-15    22.7127454825205
+       38       0.74381915292923E-15    22.7127454825688
+       39       0.74576591923885E-15    22.7127454825960
+       40       0.74926238016525E-15    22.7127454826113
+       41       0.74069970611367E-15    22.7127454826202
+       42       0.74554983733501E-15    22.7127454826251
+       43       0.74305702950581E-15    22.7127454826279
+       44       0.74166849424159E-15    22.7127454826295
+       45       0.74466071678693E-15    22.7127454826305
+       46       0.73872957637193E-15    22.7127454826310
+       47       0.74220519438307E-15    22.7127454826313
+       48       0.74423831739355E-15    22.7127454826314
+       49       0.74016474173850E-15    22.7127454826316
+       50       0.74212027136253E-15    22.7127454826316
+       51       0.73702304158582E-15    22.7127454826317
+       52       0.74165505042682E-15    22.7127454826317
+       53       0.74059194309515E-15    22.7127454826317
+       54       0.73865986841840E-15    22.7127454826317
+       55       0.73753279181157E-15    22.7127454826317
+       56       0.73749442308885E-15    22.7127454826317
+       57       0.74165278591030E-15    22.7127454826317
+       58       0.73890132057218E-15    22.7127454826317
+       59       0.73289952605217E-15    22.7127454826317
+       60       0.73299853736487E-15    22.7127454826316
+       61       0.73657514306609E-15    22.7127454826317
+       62       0.73544684305933E-15    22.7127454826317
+       63       0.73418451135951E-15    22.7127454826317
+       64       0.73463612207391E-15    22.7127454826317
+       65       0.73129650370410E-15    22.7127454826317
+       66       0.73357231660938E-15    22.7127454826317
+       67       0.73472582443971E-15    22.7127454826317
+       68       0.73585550456030E-15    22.7127454826317
+       69       0.73312577073259E-15    22.7127454826317
+       70       0.73056196772689E-15    22.7127454826317
+       71       0.73189018316034E-15    22.7127454826317
+       72       0.73054994416940E-15    22.7127454826316
+       73       0.72472544958851E-15    22.7127454826317
+       74       0.72870373999870E-15    22.7127454826317
+       75       0.73082325925898E-15    22.7127454826317
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2271274548263E+02
+ Error is    0.3128387698896E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        B
+ Size            =                    75000
+ Iterations      =                       75
+ Time in seconds =                    65.67
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                   833.03
+ Mop/s/process   =                    52.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22401,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     1
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+
+   iteration           ||r||                 zeta
+        1       0.48236524022390E-12   109.9994423237398
+        2       0.10806685068356E-14    27.3920437146528
+        3       0.11341541209937E-14    28.0339761840274
+        4       0.11674849085229E-14    28.4191507551290
+        5       0.11867347039624E-14    28.6471670038890
+        6       0.11966103369622E-14    28.7812969418425
+        7       0.12029459974406E-14    28.8600458537355
+        8       0.12041699762905E-14    28.9063145572680
+        9       0.12056005440260E-14    28.9335649214627
+       10       0.12094039450608E-14    28.9496695448996
+       11       0.12071602466811E-14    28.9592263353746
+       12       0.12085758770035E-14    28.9649233484902
+       13       0.12100364310829E-14    28.9683359248931
+       14       0.12107148972059E-14    28.9703903960013
+       15       0.12060030177868E-14    28.9716336228371
+       16       0.12107437374196E-14    28.9723898600852
+       17       0.12106171050924E-14    28.9728522692218
+       18       0.12114441099263E-14    28.9731364797776
+       19       0.12062122533723E-14    28.9733120569290
+       20       0.12122345973549E-14    28.9734210663742
+       21       0.12146644085398E-14    28.9734890760551
+       22       0.12116228254305E-14    28.9735317064867
+       23       0.12046069100448E-14    28.9735585497260
+       24       0.12130567711068E-14    28.9735755256647
+       25       0.12131983615545E-14    28.9735863059379
+       26       0.12067614458250E-14    28.9735931787377
+       27       0.12145438683972E-14    28.9735975767367
+       28       0.12137420625307E-14    28.9736004009983
+       29       0.12062321330845E-14    28.9736022206770
+       30       0.12086231579417E-14    28.9736033967633
+       31       0.12070200572944E-14    28.9736041591151
+       32       0.12077939742697E-14    28.9736046546419
+       33       0.12104593769775E-14    28.9736049775623
+       34       0.12088030578300E-14    28.9736051885106
+       35       0.12067596346249E-14    28.9736053266250
+       36       0.12069771908403E-14    28.9736054172452
+       37       0.12062566529143E-14    28.9736054768222
+       38       0.12093082890054E-14    28.9736055160641
+       39       0.12044104977153E-14    28.9736055419576
+       40       0.12068234268026E-14    28.9736055590706
+       41       0.12052448692743E-14    28.9736055703984
+       42       0.12088638997442E-14    28.9736055779071
+       43       0.12021087761556E-14    28.9736055828936
+       44       0.12047893680262E-14    28.9736055862070
+       45       0.11998710904885E-14    28.9736055884128
+       46       0.12047644045739E-14    28.9736055898826
+       47       0.12082738344150E-14    28.9736055908639
+       48       0.12075112245148E-14    28.9736055915171
+       49       0.12057293523668E-14    28.9736055919551
+       50       0.12069551910956E-14    28.9736055922484
+       51       0.12085396275381E-14    28.9736055924447
+       52       0.12046309021681E-14    28.9736055925761
+       53       0.12059000461062E-14    28.9736055926640
+       54       0.12083380795756E-14    28.9736055927228
+       55       0.12091655045070E-14    28.9736055927633
+       56       0.12044170304354E-14    28.9736055927905
+       57       0.12060393297877E-14    28.9736055928090
+       58       0.12017709247275E-14    28.9736055928197
+       59       0.12032377036378E-14    28.9736055928282
+       60       0.12031942673685E-14    28.9736055928337
+       61       0.12047636084596E-14    28.9736055928378
+       62       0.12108764490722E-14    28.9736055928397
+       63       0.12030017515766E-14    28.9736055928424
+       64       0.12023183353364E-14    28.9736055928431
+       65       0.12024875615284E-14    28.9736055928441
+       66       0.12079668315648E-14    28.9736055928445
+       67       0.12080678476401E-14    28.9736055928447
+       68       0.12096386944703E-14    28.9736055928441
+       69       0.12073239856666E-14    28.9736055928456
+       70       0.12072814759612E-14    28.9736055928450
+       71       0.12048594244074E-14    28.9736055928448
+       72       0.12048799282707E-14    28.9736055928456
+       73       0.12055734470826E-14    28.9736055928450
+       74       0.12045863969600E-14    28.9736055928458
+       75       0.12069514079659E-14    28.9736055928457
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.2562736475755E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                   361.55
+ Total processes =                        1
+ Compiled procs  =                        1
+ Mop/s total     =                   396.48
+ Mop/s/process   =                   396.48
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22448,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     4
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+
+   iteration           ||r||                 zeta
+        1       0.34908106129191E-12   109.9994423237398
+        2       0.93585337113599E-15    27.3920437146519
+        3       0.94209328271212E-15    28.0339761840268
+        4       0.94776647769681E-15    28.4191507551290
+        5       0.95496191923810E-15    28.6471670038895
+        6       0.95911674024132E-15    28.7812969418413
+        7       0.95547582482848E-15    28.8600458537345
+        8       0.96234652242610E-15    28.9063145572681
+        9       0.96263983324484E-15    28.9335649214616
+       10       0.95870872138215E-15    28.9496695448999
+       11       0.96282753854545E-15    28.9592263353753
+       12       0.96242808533152E-15    28.9649233484892
+       13       0.95981135578826E-15    28.9683359248938
+       14       0.96109137584485E-15    28.9703903960003
+       15       0.95991821263790E-15    28.9716336228373
+       16       0.96384476120009E-15    28.9723898600856
+       17       0.96126688902101E-15    28.9728522692229
+       18       0.96181235353569E-15    28.9731364797776
+       19       0.95780437932451E-15    28.9733120569285
+       20       0.96339736170804E-15    28.9734210663745
+       21       0.96448980277260E-15    28.9734890760556
+       22       0.96070387783596E-15    28.9735317064875
+       23       0.96110839145175E-15    28.9735585497258
+       24       0.95861499314475E-15    28.9735755256647
+       25       0.95740583918121E-15    28.9735863059383
+       26       0.95970398523481E-15    28.9735931787371
+       27       0.96014134990016E-15    28.9735975767369
+       28       0.96385413674399E-15    28.9736004009988
+       29       0.95908786924532E-15    28.9736022206771
+       30       0.95930484004633E-15    28.9736033967630
+       31       0.96336981058979E-15    28.9736041591149
+       32       0.95742664157299E-15    28.9736046546405
+       33       0.95921326218028E-15    28.9736049775619
+       34       0.95741756835104E-15    28.9736051885104
+       35       0.95827132577529E-15    28.9736053266247
+       36       0.95821161094330E-15    28.9736054172457
+       37       0.95645199692197E-15    28.9736054768224
+       38       0.95975440336929E-15    28.9736055160643
+       39       0.95493627547747E-15    28.9736055419569
+       40       0.95568087019083E-15    28.9736055590700
+       41       0.95818265555219E-15    28.9736055703978
+       42       0.95822561889087E-15    28.9736055779074
+       43       0.96017079254803E-15    28.9736055828931
+       44       0.95833211706544E-15    28.9736055862073
+       45       0.95419755462009E-15    28.9736055884128
+       46       0.95491993079819E-15    28.9736055898823
+       47       0.95918201007798E-15    28.9736055908632
+       48       0.95696216270182E-15    28.9736055915181
+       49       0.95700400127526E-15    28.9736055919554
+       50       0.95905614768229E-15    28.9736055922481
+       51       0.95735040779711E-15    28.9736055924444
+       52       0.94890895802161E-15    28.9736055925762
+       53       0.95347807388858E-15    28.9736055926645
+       54       0.96044828581002E-15    28.9736055927237
+       55       0.95776857544013E-15    28.9736055927635
+       56       0.95834773429486E-15    28.9736055927894
+       57       0.95348910281359E-15    28.9736055928083
+       58       0.95432305122239E-15    28.9736055928201
+       59       0.95527937031171E-15    28.9736055928285
+       60       0.95260624726502E-15    28.9736055928339
+       61       0.95398829172623E-15    28.9736055928380
+       62       0.95959336295152E-15    28.9736055928406
+       63       0.95111942704465E-15    28.9736055928419
+       64       0.95296931056323E-15    28.9736055928430
+       65       0.95491783119309E-15    28.9736055928439
+       66       0.95239144160957E-15    28.9736055928443
+       67       0.95650001296911E-15    28.9736055928448
+       68       0.95687642314899E-15    28.9736055928449
+       69       0.95347926050486E-15    28.9736055928453
+       70       0.95220981671214E-15    28.9736055928449
+       71       0.95344945364342E-15    28.9736055928453
+       72       0.95344641958354E-15    28.9736055928454
+       73       0.95457361126181E-15    28.9736055928459
+       74       0.95953069336843E-15    28.9736055928456
+       75       0.95265064010141E-15    28.9736055928454
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.1434641950542E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                    96.27
+ Total processes =                        4
+ Compiled procs  =                        4
+ Mop/s total     =                  1489.02
+ Mop/s/process   =                   372.26
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22365,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-431-5
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:     8
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+
+   iteration           ||r||                 zeta
+        1       0.25669892924205E-12   109.9994423237398
+        2       0.74228164327069E-15    27.3920437146522
+        3       0.73178519391557E-15    28.0339761840269
+        4       0.73511264357026E-15    28.4191507551292
+        5       0.73421730842379E-15    28.6471670038898
+        6       0.73492109836367E-15    28.7812969418415
+        7       0.73320544890217E-15    28.8600458537347
+        8       0.73497667032532E-15    28.9063145572688
+        9       0.73526572230395E-15    28.9335649214618
+       10       0.73505185252563E-15    28.9496695448998
+       11       0.73625109125255E-15    28.9592263353752
+       12       0.73831136376740E-15    28.9649233484893
+       13       0.73264054287170E-15    28.9683359248931
+       14       0.73366322604018E-15    28.9703903960002
+       15       0.73097628345344E-15    28.9716336228373
+       16       0.73824190293649E-15    28.9723898600858
+       17       0.73317414624003E-15    28.9728522692227
+       18       0.73623864918682E-15    28.9731364797773
+       19       0.73389192168692E-15    28.9733120569287
+       20       0.73002915563859E-15    28.9734210663748
+       21       0.73392074119138E-15    28.9734890760553
+       22       0.73489945952922E-15    28.9735317064877
+       23       0.73357187844626E-15    28.9735585497255
+       24       0.73222720846535E-15    28.9735755256647
+       25       0.73167276973196E-15    28.9735863059385
+       26       0.72953586715523E-15    28.9735931787369
+       27       0.72960124435971E-15    28.9735975767371
+       28       0.73464940581894E-15    28.9736004009987
+       29       0.73267450554940E-15    28.9736022206773
+       30       0.73248939141519E-15    28.9736033967630
+       31       0.73187619884905E-15    28.9736041591150
+       32       0.73305412929456E-15    28.9736046546408
+       33       0.73184056128724E-15    28.9736049775621
+       34       0.72699956877705E-15    28.9736051885100
+       35       0.73068403797029E-15    28.9736053266249
+       36       0.72904765845179E-15    28.9736054172454
+       37       0.73039453223767E-15    28.9736054768226
+       38       0.72840663855977E-15    28.9736055160640
+       39       0.72794311588001E-15    28.9736055419571
+       40       0.72843071538389E-15    28.9736055590700
+       41       0.72844313095396E-15    28.9736055703979
+       42       0.72845774141858E-15    28.9736055779080
+       43       0.73314872405596E-15    28.9736055828934
+       44       0.73080033795164E-15    28.9736055862070
+       45       0.73114635556120E-15    28.9736055884129
+       46       0.72812152767642E-15    28.9736055898823
+       47       0.72712286453879E-15    28.9736055908632
+       48       0.72963285688282E-15    28.9736055915178
+       49       0.72821859933991E-15    28.9736055919553
+       50       0.72385813026868E-15    28.9736055922483
+       51       0.72878554684088E-15    28.9736055924444
+       52       0.72722764947537E-15    28.9736055925763
+       53       0.72743713013340E-15    28.9736055926644
+       54       0.72834318414853E-15    28.9736055927237
+       55       0.72815468964170E-15    28.9736055927636
+       56       0.72335509667126E-15    28.9736055927903
+       57       0.72460658173838E-15    28.9736055928083
+       58       0.72568166718406E-15    28.9736055928204
+       59       0.72426655604691E-15    28.9736055928286
+       60       0.72275620207793E-15    28.9736055928341
+       61       0.72386354402238E-15    28.9736055928379
+       62       0.72483317793014E-15    28.9736055928405
+       63       0.72697414744372E-15    28.9736055928421
+       64       0.72519379160917E-15    28.9736055928428
+       65       0.72482067011637E-15    28.9736055928438
+       66       0.72493913701000E-15    28.9736055928446
+       67       0.72656066346017E-15    28.9736055928448
+       68       0.72676538602780E-15    28.9736055928452
+       69       0.72249983822202E-15    28.9736055928452
+       70       0.72483987874547E-15    28.9736055928451
+       71       0.72773052153078E-15    28.9736055928453
+       72       0.72268731342471E-15    28.9736055928453
+       73       0.72450931208757E-15    28.9736055928455
+       74       0.72334005253572E-15    28.9736055928457
+       75       0.72237275312843E-15    28.9736055928454
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.1336546774437E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                   123.65
+ Total processes =                        8
+ Compiled procs  =                        8
+ Mop/s total     =                  1159.30
+ Mop/s/process   =                   144.91
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+--------------------------------------------------------------------------
+[[22350,1],11]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: compute-641-18
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:     150000
+ Iterations:    75
+ Number of active processes:    16
+ Number of nonzeroes per row:       15
+ Eigenvalue shift: .110E+03
+
+   iteration           ||r||                 zeta
+        1       0.25669892924205E-12   109.9994423237398
+        2       0.74228164327069E-15    27.3920437146522
+        3       0.73178519391557E-15    28.0339761840269
+        4       0.73511264357026E-15    28.4191507551292
+        5       0.73421730842379E-15    28.6471670038898
+        6       0.73492109836367E-15    28.7812969418415
+        7       0.73320544890217E-15    28.8600458537347
+        8       0.73497667032532E-15    28.9063145572688
+        9       0.73526572230395E-15    28.9335649214618
+       10       0.73505185252563E-15    28.9496695448998
+       11       0.73625109125255E-15    28.9592263353752
+       12       0.73831136376740E-15    28.9649233484893
+       13       0.73264054287170E-15    28.9683359248931
+       14       0.73366322604018E-15    28.9703903960002
+       15       0.73097628345344E-15    28.9716336228373
+       16       0.73824190293649E-15    28.9723898600858
+       17       0.73317414624003E-15    28.9728522692227
+       18       0.73623864918682E-15    28.9731364797773
+       19       0.73389192168692E-15    28.9733120569287
+       20       0.73002915563859E-15    28.9734210663748
+       21       0.73392074119138E-15    28.9734890760553
+       22       0.73489945952922E-15    28.9735317064877
+       23       0.73357187844626E-15    28.9735585497255
+       24       0.73222720846535E-15    28.9735755256647
+       25       0.73167276973196E-15    28.9735863059385
+       26       0.72953586715523E-15    28.9735931787369
+       27       0.72960124435971E-15    28.9735975767371
+       28       0.73464940581894E-15    28.9736004009987
+       29       0.73267450554940E-15    28.9736022206773
+       30       0.73248939141519E-15    28.9736033967630
+       31       0.73187619884905E-15    28.9736041591150
+       32       0.73305412929456E-15    28.9736046546408
+       33       0.73184056128724E-15    28.9736049775621
+       34       0.72699956877705E-15    28.9736051885100
+       35       0.73068403797029E-15    28.9736053266249
+       36       0.72904765845179E-15    28.9736054172454
+       37       0.73039453223767E-15    28.9736054768226
+       38       0.72840663855977E-15    28.9736055160640
+       39       0.72794311588001E-15    28.9736055419571
+       40       0.72843071538389E-15    28.9736055590700
+       41       0.72844313095396E-15    28.9736055703979
+       42       0.72845774141858E-15    28.9736055779080
+       43       0.73314872405596E-15    28.9736055828934
+       44       0.73080033795164E-15    28.9736055862070
+       45       0.73114635556120E-15    28.9736055884129
+       46       0.72812152767642E-15    28.9736055898823
+       47       0.72712286453879E-15    28.9736055908632
+       48       0.72963285688282E-15    28.9736055915178
+       49       0.72821859933991E-15    28.9736055919553
+       50       0.72385813026868E-15    28.9736055922483
+       51       0.72878554684088E-15    28.9736055924444
+       52       0.72722764947537E-15    28.9736055925763
+       53       0.72743713013340E-15    28.9736055926644
+       54       0.72834318414853E-15    28.9736055927237
+       55       0.72815468964170E-15    28.9736055927636
+       56       0.72335509667126E-15    28.9736055927903
+       57       0.72460658173838E-15    28.9736055928083
+       58       0.72568166718406E-15    28.9736055928204
+       59       0.72426655604691E-15    28.9736055928286
+       60       0.72275620207793E-15    28.9736055928341
+       61       0.72386354402238E-15    28.9736055928379
+       62       0.72483317793014E-15    28.9736055928405
+       63       0.72697414744372E-15    28.9736055928421
+       64       0.72519379160917E-15    28.9736055928428
+       65       0.72482067011637E-15    28.9736055928438
+       66       0.72493913701000E-15    28.9736055928446
+       67       0.72656066346017E-15    28.9736055928448
+       68       0.72676538602780E-15    28.9736055928452
+       69       0.72249983822202E-15    28.9736055928452
+       70       0.72483987874547E-15    28.9736055928451
+       71       0.72773052153078E-15    28.9736055928453
+       72       0.72268731342471E-15    28.9736055928453
+       73       0.72450931208757E-15    28.9736055928455
+       74       0.72334005253572E-15    28.9736055928457
+       75       0.72237275312843E-15    28.9736055928454
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.1336546774437E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                   115.09
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                  1245.52
+ Mop/s/process   =                    77.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              22 Mar 2015
+
+ Compile options:
+    MPIF77       = mpifort
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/usr/local/lib -lmpi -ifort
+    FMPI_INC     = -I/usr/local/include
+    FFLAGS       = -O2
+    FLINKFLAGS   = -O2
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
