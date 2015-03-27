@@ -9,16 +9,13 @@ mpstat -P ALL 1 100000 >> mpstat.txt &
 echo "mpstat aberto"
 
 INSCRIPT=-1
-
-for i in {1..16}
+echo "COMECOU BT.A.X"
+for i in {1..50}
 do
-
 echo "Comecou bt.A.x $i"
-echo "bt.A.x START $i" >> mpstat.txt
-echo "bt.A.x START $i" >> dstat.csv
 ./bt.A.x >> output.txt &
+sleep(1)
 done
-
 for job in `jobs -p`
 do 
 echo $job
@@ -32,16 +29,13 @@ echo "terminou"
 done
 
 INSCRIPT=-1
-
-for i in {1..16}
+echo "COMECOU BT.B.X"
+for i in {1..32}
 do
-
 echo "Comecou bt.B.x $i"
-echo "bt.B.x START $i" >> mpstat.txt
-echo "bt.B.x START $i" >> dstat.csv
 ./bt.B.x >> output.txt &
+sleep(1)
 done
-
 for job in `jobs -p`
 do 
 echo $job
@@ -55,16 +49,12 @@ echo "terminou"
 done
 
 INSCRIPT=-1
-
-for i in {1..16}
+echo "COMECOU BT.C.X"
+for i in {1..32}
 do
-
 echo "Comecou bt.C.x $i"
-echo "bt.C.x START $i" >> mpstat.txt
-echo "bt.C.x START $i" >> dstat.csv
 ./bt.C.x >> output.txt &
 done
-
 for job in `jobs -p`
 do 
 echo $job
