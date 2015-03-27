@@ -8,7 +8,7 @@ echo "A abrir mpstat"
 mpstat -P ALL 1 100000 >> mpstat.txt &
 echo "mpstat aberto"
 
-FAIL=0
+INSCRIPT=-1
 
 for i in {1..16}
 do
@@ -16,23 +16,20 @@ do
 echo "Comecou bt.A.1 $i"
 echo "bt.A.1 START $i" >> mpstat.txt
 echo "bt.A.1 START $i" >> dstat.csv
-mpirun -np 1 ./bt.A.1 & >> output.txt
+./bt.A.x >> output.txt &
 done
 
-for job in 'jobs -p'
+for job in `jobs -p`
 do 
 echo $job
-	wait $job || let "FAIL+=1"
+	if [ "$INSCRIPT" == "1" ];
+	then 
+	wait $job
+	else
+	let "INSCRIPT += 1"
+	fi
+echo "terminou"
 done
-
-echo $FAIL
-
-if [ "$FAIL" == "0" ];
-then
-echo "YAY!"
-else
-echo "FAIL! ($FAIL)"
-fi
 
 pkill mpstat
 echo "mpstat teeminado"
