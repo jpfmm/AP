@@ -1,4 +1,4 @@
-hostname
+echo hostname
 echo "A entrar na pasta iccO2.."
 cd ./iccO2
 echo "A abrir dtat.."
