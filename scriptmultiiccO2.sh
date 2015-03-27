@@ -13,10 +13,56 @@ INSCRIPT=-1
 for i in {1..16}
 do
 
-echo "Comecou bt.A.1 $i"
-echo "bt.A.1 START $i" >> mpstat.txt
-echo "bt.A.1 START $i" >> dstat.csv
+echo "Comecou bt.A.x $i"
+echo "bt.A.x START $i" >> mpstat.txt
+echo "bt.A.x START $i" >> dstat.csv
 ./bt.A.x >> output.txt &
+done
+
+for job in `jobs -p`
+do 
+echo $job
+	if [ "$INSCRIPT" == "1" ];
+	then 
+	wait $job
+	else
+	let "INSCRIPT += 1"
+	fi
+echo "terminou"
+done
+
+INSCRIPT=-1
+
+for i in {1..16}
+do
+
+echo "Comecou bt.B.x $i"
+echo "bt.B.x START $i" >> mpstat.txt
+echo "bt.B.x START $i" >> dstat.csv
+./bt.B.x >> output.txt &
+done
+
+for job in `jobs -p`
+do 
+echo $job
+	if [ "$INSCRIPT" == "1" ];
+	then 
+	wait $job
+	else
+	let "INSCRIPT += 1"
+	fi
+echo "terminou"
+done
+
+INSCRIPT=-1
+
+for i in {1..16}
+do
+
+echo "Comecou bt.C.x $i"
+echo "bt.C.x START $i" >> mpstat.txt
+echo "bt.C.x START $i" >> dstat.csv
+./bt.C.x >> output.txt &
 done
 
 for job in `jobs -p`
