@@ -14,7 +14,7 @@ for i in {1..50}
 do
 echo "Comecou bt.A.x $i"
 ./bt.A.x >> output.txt &
-sleep(1)
+sleep 1
 done
 for job in `jobs -p`
 do 
@@ -34,7 +34,7 @@ for i in {1..32}
 do
 echo "Comecou bt.B.x $i"
 ./bt.B.x >> output.txt &
-sleep(1)
+sleep 1
 done
 for job in `jobs -p`
 do 
@@ -54,6 +54,7 @@ for i in {1..32}
 do
 echo "Comecou bt.C.x $i"
 ./bt.C.x >> output.txt &
+sleep 1
 done
 for job in `jobs -p`
 do 
