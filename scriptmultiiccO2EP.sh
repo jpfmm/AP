@@ -2,18 +2,18 @@ hostname
 echo "A entrar na pasta iccO2.."
 cd ./iccO2
 echo "A abrir dtat.."
-dstat -tcmld >> dstatBT.csv &
+dstat -tcmld >> dstatEP.csv &
 echo "dstat aberto"
 echo "A abrir mpstat"
-mpstat -P ALL 1 100000 >> mpstatBT.txt &
+mpstat -P ALL 1 100000 >> mpstatEP.txt &
 echo "mpstat aberto"
 
 INSCRIPT=-1
-echo "COMECOU BT.A.X"
+echo "COMECOU EP.A.X"
 for i in {1..50}
 do
-echo "Comecou bt.A.x $i"
-./bt.A.x >> output.txt &
+echo "Comecou ep.A.x $i"
+./ep.A.x >> output.txt &
 sleep 1
 done
 for job in `jobs -p`
@@ -29,13 +29,13 @@ echo "terminou"
 done
 
 INSCRIPT=-1
-echo "COMECOU BT.B.X"
-echo "BT.B" >> dstatBT.csv
-echo "BT.B" >> mpstatBT.txt
+echo "COMECOU EP.B.X"
+echo "EP.B" >> dstatEP.csv
+echo "EP.B" >> mpstatEP.txt
 for i in {1..32}
 do
-echo "Comecou bt.B.x $i"
-./bt.B.x >> output.txt &
+echo "Comecou ep.B.x $i"
+./ep.B.x >> output.txt &
 sleep 1
 done
 for job in `jobs -p`
@@ -51,13 +51,13 @@ echo "terminou"
 done
 
 INSCRIPT=-1
-echo "COMECOU BT.C.X"
-echo "BT.C" >> dstatBT.csv
-echo "BT.C" >> mpstatBT.txt
+echo "COMECOU EP.C.X"
+echo "EP.C" >> dstatEP.csv
+echo "EP.C" >> mpstatEP.txt
 for i in {1..32}
 do
-echo "Comecou bt.C.x $i"
-./bt.C.x >> output.txt &
+echo "Comecou ep.C.x $i"
+./ep.C.x >> output.txt &
 sleep 1
 done
 for job in `jobs -p`
