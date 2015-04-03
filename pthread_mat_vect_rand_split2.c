@@ -37,6 +37,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #include <pthread.h>
 #include "timer.h"
 
@@ -67,7 +68,7 @@ int main(int argc, char* argv[]) {
    Get_args(argc, argv, &thread_count, &m, &n);
 
    lado = sqrt(thread_count);
-   if(lado^2 != thread_count){printf("NUMERO DE THREADS INCORRETO\n"); exit(1);}
+   if(pow(lado,2) != thread_count){printf("NUMERO DE THREADS INCORRETO\n"); exit(1);}
    
    A = malloc(m*n*sizeof(double));
    x = malloc(n*sizeof(double));
@@ -238,7 +239,7 @@ void *pthread_mat_vect(void* rank){
 	mystartx = offsetx * my_rank;
 	myendx = offsetx * (my_rank + 1) - 1;
 	offsety = n / lado;
-	mystarty = offsety * myrank;
+	mystarty = offsety * my_rank;
 	myendy = offsety * (my_rank + 1) - 1;
 	if(my_rank == (thread_count - 1)) {myendy += n % thread_count;}
 	
