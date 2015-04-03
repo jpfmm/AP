@@ -218,7 +218,7 @@ void Omp_mat_vect(double A[], double x[], double y[],
    elapsed = finish - start;
    printf("Elapsed time = %e seconds\n", elapsed);
 
-}  /* Omp_mat_vect */
+}   Omp_mat_vect */
 
 /*------------------------------------------------------------------
  * Function:  pthread_mat_vect
@@ -235,7 +235,7 @@ void *pthread_mat_vect(void* rank){
 	mystart = offset * my_rank;
 	myend = offset * (my_rank + 1) - 1;
 	
-	if(rank == (thread_count - 1)) {myend += m % thread_count;}
+	if(my_rank == (thread_count - 1)) {myend += m % thread_count;}
 	
     for (i = mystart; i <= myend; i++) {
        y[i] = 0.0;
