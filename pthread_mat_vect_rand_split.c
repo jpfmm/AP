@@ -84,7 +84,7 @@ int main(int argc, char* argv[]) {
 #  endif
 	GET_TIME(start);
 	for(thread = 0; thread < thread_count; thread++){
-		pthread_create(&thread_handles[thread], (pthread_attr_t*) NULL, )
+		pthread_create(&thread_handles[thread], (pthread_attr_t*) NULL, (void*) thread);
 	}
 	for(thread = 0; thread < thread_count; thread++){
 		pthread_join(thread_handles[thread],NULL);
