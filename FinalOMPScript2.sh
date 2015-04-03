@@ -95,24 +95,6 @@ echo "bt.C.x START" $th $n >> ../dstat.csv
 ./bt.C.x >> ../output.txt
 echo "bt.C.x END" $th $n >> ../mpstat.txt
 echo "bt.C.x END" $th $n >> ../dstat.csv
-echo "Comecou cg.A.x" $th $n
-echo "cg.A.x START" $th $n >> ../mpstat.txt
-echo "cg.A.x START" $th $n >> ../dstat.csv
-./cg.A.x >> ../output.txt
-echo "cg.A.x END" $th $n >> ../mpstat.txt
-echo "cg.A.x END" $th $n >> ../dstat.csv
-echo "Comecou cg.B.x" $th $n
-echo "cg.B.x START" $th $n >> ../mpstat.txt
-echo "cg.B.x START" $th $n >> ../dstat.csv
-./cg.B.x >> ../output.txt
-echo "cg.B.x END" $th $n >> ../mpstat.txt
-echo "cg.B.x END" $th $n >> ../dstat.csv
-echo "Comecou cg.C.x" $th $n
-echo "cg.C.x START" $th $n >> ../mpstat.txt
-echo "cg.C.x START" $th $n >> ../dstat.csv
-./cg.C.x >> ../output.txt
-echo "cg.C.x END" $th $n >> ../mpstat.txt
-echo "cg.C.x END" $th $n >> ../dstat.csv
 echo "Comecou ep.A.x" $th $n
 echo "ep.A.x START" $th $n >> ../mpstat.txt
 echo "ep.A.x START" $th $n >> ../dstat.csv
