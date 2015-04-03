@@ -10,64 +10,46 @@ echo "mpstat aberto"
 echo "A entrar na pasta iccO3.."
 cd ./iccO3
 
-export OMP_NUM_THREADS=1
-echo "OMP_NUM_THREADS=1"
-echo "Comecou bt.A.x" $th 3
-echo "bt.A.x START" $th 3 >> ../mpstat.txt
-echo "bt.A.x START" $th 3 >> ../dstat.csv
-./bt.A.x >> ../output.txt
-echo "bt.A.x END" $th 3 >> ../mpstat.txt
-echo "bt.A.x END" $th 3 >> ../dstat.csv
-echo "Comecou bt.B.x" $th 3
-echo "bt.B.x START" $th 3 >> ../mpstat.txt
-echo "bt.B.x START" $th 3 >> ../dstat.csv
-./bt.B.x >> ../output.txt
-echo "bt.B.x END" $th 3 >> ../mpstat.txt
-echo "bt.B.x END" $th 3 >> ../dstat.csv
-echo "Comecou bt.C.x" $th 3
-echo "bt.C.x START" $th 3 >> ../mpstat.txt
-echo "bt.C.x START" $th 3 >> ../dstat.csv
-./bt.C.x >> ../output.txt
-echo "bt.C.x END" $th 3 >> ../mpstat.txt
-echo "bt.C.x END" $th 3 >> ../dstat.csv
-echo "Comecou cg.A.x" $th 3
-echo "cg.A.x START" $th 3 >> ../mpstat.txt
-echo "cg.A.x START" $th 3 >> ../dstat.csv
+export OMP_NUM_THREADS=4
+echo "OMP_NUM_THREADS=4"
+echo "Comecou cg.A.x" 4 3
+echo "cg.A.x START" 4 3 >> ../mpstat.txt
+echo "cg.A.x START" 4 3 >> ../dstat.csv
 ./cg.A.x >> ../output.txt
-echo "cg.A.x END" $th 3 >> ../mpstat.txt
-echo "cg.A.x END" $th 3 >> ../dstat.csv
-echo "Comecou cg.B.x" $th 3
-echo "cg.B.x START" $th 3 >> ../mpstat.txt
-echo "cg.B.x START" $th 3 >> ../dstat.csv
+echo "cg.A.x END" 4 3 >> ../mpstat.txt
+echo "cg.A.x END" 4 3 >> ../dstat.csv
+echo "Comecou cg.B.x" 4 3
+echo "cg.B.x START" 4 3 >> ../mpstat.txt
+echo "cg.B.x START" 4 3 >> ../dstat.csv
 ./cg.B.x >> ../output.txt
-echo "cg.B.x END" $th 3 >> ../mpstat.txt
-echo "cg.B.x END" $th 3 >> ../dstat.csv
-echo "Comecou cg.C.x" $th 3
-echo "cg.C.x START" $th 3 >> ../mpstat.txt
-echo "cg.C.x START" $th 3 >> ../dstat.csv
+echo "cg.B.x END" 4 3 >> ../mpstat.txt
+echo "cg.B.x END" 4 3 >> ../dstat.csv
+echo "Comecou cg.C.x" 4 3
+echo "cg.C.x START" 4 3 >> ../mpstat.txt
+echo "cg.C.x START" 4 3 >> ../dstat.csv
 ./cg.C.x >> ../output.txt
-echo "cg.C.x END" $th 3 >> ../mpstat.txt
-echo "cg.C.x END" $th 3 >> ../dstat.csv
-echo "Comecou ep.A.x" $th 3
-echo "ep.A.x START" $th 3 >> ../mpstat.txt
-echo "ep.A.x START" $th 3 >> ../dstat.csv
+echo "cg.C.x END" 4 3 >> ../mpstat.txt
+echo "cg.C.x END" 4 3 >> ../dstat.csv
+echo "Comecou ep.A.x" 4 3
+echo "ep.A.x START" 4 3 >> ../mpstat.txt
+echo "ep.A.x START" 4 3 >> ../dstat.csv
 ./ep.A.x >> ../output.txt
-echo "ep.A.x END" $th 3 >> ../mpstat.txt
-echo "ep.A.x END" $th 3 >> ../dstat.csv
-echo "Comecou ep.B.x" $th 3
-echo "ep.B.x START" $th 3 >> ../mpstat.txt
-echo "ep.B.x START" $th 3 >> ../dstat.csv
+echo "ep.A.x END" 4 3 >> ../mpstat.txt
+echo "ep.A.x END" 4 3 >> ../dstat.csv
+echo "Comecou ep.B.x" 4 3
+echo "ep.B.x START" 4 3 >> ../mpstat.txt
+echo "ep.B.x START" 4 3 >> ../dstat.csv
 ./ep.B.x >> ../output.txt
-echo "ep.B.x END" $th 3 >> ../mpstat.txt
-echo "ep.B.x END" $th 3 >> ../dstat.csv
-echo "Comecou ep.C.x" $th 3
-echo "ep.C.x START" $th 3 >> ../mpstat.txt
-echo "ep.C.x START" $th 3 >> ../dstat.csv
+echo "ep.B.x END" 4 3 >> ../mpstat.txt
+echo "ep.B.x END" 4 3 >> ../dstat.csv
+echo "Comecou ep.C.x" 4 3
+echo "ep.C.x START" 4 3 >> ../mpstat.txt
+echo "ep.C.x START" 4 3 >> ../dstat.csv
 ./ep.C.x >> ../output.txt
-echo "ep.C.x END" $th 3 >> ../mpstat.txt
-echo "ep.C.x END" $th 3 >> ../dstat.csv
+echo "ep.C.x END" 4 3 >> ../mpstat.txt
+echo "ep.C.x END" 4 3 >> ../dstat.csv
 
-for th in 4 9 16
+for th in 9 16
 do
 export OMP_NUM_THREADS=$th
 echo "OMP_NUM_THREADS = "$th
@@ -92,24 +74,6 @@ echo "bt.C.x START" $th $n >> ../dstat.csv
 ./bt.C.x >> ../output.txt
 echo "bt.C.x END" $th $n >> ../mpstat.txt
 echo "bt.C.x END" $th $n >> ../dstat.csv
-echo "Comecou cg.A.x" $th $n
-echo "cg.A.x START" $th $n >> ../mpstat.txt
-echo "cg.A.x START" $th $n >> ../dstat.csv
-./cg.A.x >> ../output.txt
-echo "cg.A.x END" $th $n >> ../mpstat.txt
-echo "cg.A.x END" $th $n >> ../dstat.csv
-echo "Comecou cg.B.x" $th $n
-echo "cg.B.x START" $th $n >> ../mpstat.txt
-echo "cg.B.x START" $th $n >> ../dstat.csv
-./cg.B.x >> ../output.txt
-echo "cg.B.x END" $th $n >> ../mpstat.txt
-echo "cg.B.x END" $th $n >> ../dstat.csv
-echo "Comecou cg.C.x" $th $n
-echo "cg.C.x START" $th $n >> ../mpstat.txt
-echo "cg.C.x START" $th $n >> ../dstat.csv
-./cg.C.x >> ../output.txt
-echo "cg.C.x END" $th $n >> ../mpstat.txt
-echo "cg.C.x END" $th $n >> ../dstat.csv
 echo "Comecou ep.A.x" $th $n
 echo "ep.A.x START" $th $n >> ../mpstat.txt
 echo "ep.A.x START" $th $n >> ../dstat.csv
