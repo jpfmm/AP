@@ -39,6 +39,7 @@
 #include <stdlib.h>
 #include <math.h>
 #include <pthread.h>
+#include <semaphore.h>
 #include "timer.h"
 
 /* Serial functions */
@@ -54,8 +55,9 @@ void Print_vector(char* title, double y[], double m);
 
 /*Global vatiables*/
    double *A, *x, *y;
-   int thread_count, m, n, lado;
-
+   int thread_count, m, n, lado; 
+   sem_t *semaf;
+   
 /* Parallel function */
 void *pthread_mat_vect(void* rank);
 
@@ -64,7 +66,7 @@ int main(int argc, char* argv[]) {
    long thread;
    pthread_t* thread_handles;
    double start, finish, elapsed;
-   
+   int n;
    Get_args(argc, argv, &thread_count, &m, &n);
 
    lado = sqrt(thread_count);
@@ -74,6 +76,7 @@ int main(int argc, char* argv[]) {
    x = malloc(n*sizeof(double));
    y = malloc(m*sizeof(double));
    thread_handles = (pthread_t*) malloc (thread_count*sizeof(pthread_t));
+   semaf = (sem_t*) malloc (n*sizeof(sem_t));
    
 #  ifdef DEBUG
    Read_matrix("Enter the matrix", A, m, n);
@@ -86,6 +89,9 @@ int main(int argc, char* argv[]) {
    //Gen_vector(x, n);
 /* Print_vector("We generated", x, n); */
 #  endif
+    for(thread = 0; thread < n; thread++){
+		sem_init(&semaf[thread],1,1);
+	}
 	GET_TIME(start);
 	for(thread = 0; thread < thread_count; thread++){
 		pthread_create(&thread_handles[thread], (pthread_attr_t*) NULL, pthread_mat_vect ,(void*) thread);
@@ -233,7 +239,7 @@ void Omp_mat_vect(double A[], double x[], double y[],
 void *pthread_mat_vect(void* rank){
 	long my_rank = (long) rank;
 	int i, j, mystartx, myendx, mystarty, myendy, offsetx, offsety;
-	double temp;
+	double temp,aux;
 	
 	
 	offsetx = m / lado;
@@ -245,13 +251,20 @@ void *pthread_mat_vect(void* rank){
 	if((my_rank % lado) == lado-1){myendy += n % lado;}
 	if(thread_count - lado <= my_rank){myendx += m % lado;}
 	
-	
+	for (i = mystartx; i <= myendx; i++) {
+		sem_wait(&semaf[i]);
+		y[i] = 0.0;
+		sem_post(&semaf[i]);
+	}
     for (i = mystartx; i <= myendx; i++) {
-       y[i] = 0.0;
-       for (j = mystarty; j <= myendy; j++) {
+       aux = 0.0;
+	   for (j = mystarty; j <= myendy; j++) {
           temp = A[i*n+j]*x[j];
-          y[i] += temp;
+          aux += temp;
        }
+	   sem_wait(&semaf[n]);
+	   y[i] += aux;
+	   sem_post(&semaf[n]);
     }
 	return NULL;
 }	
