@@ -1,5 +1,5 @@
-hostname
-hostname >> output.txt
+cat $PBS_NODEFILE
+cat $PBS_NODEFILE >> output.txt
 echo "A abrir dtat.."
 dstat -tcmld >> dstat.csv &
 echo "dstat aberto"
