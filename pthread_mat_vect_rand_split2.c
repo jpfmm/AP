@@ -235,13 +235,16 @@ void *pthread_mat_vect(void* rank){
 	int i, j, mystartx, myendx, mystarty, myendy, offsetx, offsety;
 	double temp;
 	
+	
 	offsetx = m / lado;
 	mystartx = offsetx * my_rank;
 	myendx = offsetx * (my_rank + 1) - 1;
 	offsety = n / lado;
 	mystarty = offsety * my_rank;
 	myendy = offsety * (my_rank + 1) - 1;
-	if(my_rank == (thread_count - 1)) {myendy += n % thread_count;}
+	if((my_rank % lado) == lado-1){myendy += n % lado;}
+	if(thread_count - lado <= my_rank){myendx += m % lado;}
+	
 	
     for (i = mystartx; i <= myendx; i++) {
        y[i] = 0.0;
