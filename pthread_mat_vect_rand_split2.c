@@ -66,7 +66,6 @@ int main(int argc, char* argv[]) {
    long thread;
    pthread_t* thread_handles;
    double start, finish, elapsed;
-   int n;
    Get_args(argc, argv, &thread_count, &m, &n);
 
    lado = sqrt(thread_count);
@@ -74,9 +73,9 @@ int main(int argc, char* argv[]) {
    
    A = malloc(m*n*sizeof(double));
    x = malloc(n*sizeof(double));
-   y = malloc(m*sizeof(double));
+   y = calloc(m,sizeof(double));
    thread_handles = (pthread_t*) malloc (thread_count*sizeof(pthread_t));
-   semaf = (sem_t*) malloc (n*sizeof(sem_t));
+   semaf = (sem_t*) malloc (m*sizeof(sem_t));
    
 #  ifdef DEBUG
    Read_matrix("Enter the matrix", A, m, n);
@@ -84,14 +83,15 @@ int main(int argc, char* argv[]) {
    Read_vector("Enter the vector", x, n);
    Print_vector("We read", x, n);
 #  else
-   //Gen_matrix(A, m, n);
+ //  Gen_matrix(A, m, n);
 /* Print_matrix("We generated", A, m, n); */
-   //Gen_vector(x, n);
+ //  Gen_vector(x, n);
 /* Print_vector("We generated", x, n); */
 #  endif
-    for(thread = 0; thread < n; thread++){
+	for(thread = 0; thread < m; thread++){
 		sem_init(&semaf[thread],1,1);
 	}
+
 	GET_TIME(start);
 	for(thread = 0; thread < thread_count; thread++){
 		pthread_create(&thread_handles[thread], (pthread_attr_t*) NULL, pthread_mat_vect ,(void*) thread);
@@ -234,38 +234,38 @@ void Omp_mat_vect(double A[], double x[], double y[],
  * Function:  pthread_mat_vect
  * Purpose:   Multiply an mxn matrix by an nx1 column vector
  * In args:   void* thread
- * Out arg:   void*												  */
+ * Out arg:   vo	id*												  */
 
 void *pthread_mat_vect(void* rank){
 	long my_rank = (long) rank;
 	int i, j, mystartx, myendx, mystarty, myendy, offsetx, offsety;
 	double temp,aux;
 	
-	
 	offsetx = m / lado;
-	mystartx = offsetx * my_rank;
-	myendx = offsetx * (my_rank + 1) - 1;
+	mystartx = offsetx * (my_rank / lado);
+	myendx = offsetx * ((my_rank / lado) + 1) - 1;
 	offsety = n / lado;
-	mystarty = offsety * my_rank;
-	myendy = offsety * (my_rank + 1) - 1;
+	mystarty = offsety * (my_rank % lado);
+	myendy = offsety * ((my_rank % lado) + 1) - 1;
 	if((my_rank % lado) == lado-1){myendy += n % lado;}
 	if(thread_count - lado <= my_rank){myendx += m % lado;}
 	
-	for (i = mystartx; i <= myendx; i++) {
-		sem_wait(&semaf[i]);
-		y[i] = 0.0;
-		sem_post(&semaf[i]);
-	}
-    for (i = mystartx; i <= myendx; i++) {
-       aux = 0.0;
-	   for (j = mystarty; j <= myendy; j++) {
-          temp = A[i*n+j]*x[j];
+	//printf("MY RANK: %ld, Startx: %d, Endx: %d, Starty: %d, Endy: %d, OffsetX: %d, OffsetY: %d\n", my_rank, mystartx, myendx, mystarty, myendy, offsetx, offsety);
+
+       for (i = mystartx; i <= myendx; i++) {
+        aux = 0.0;
+        for (j = mystarty; j <= myendy; j++) {
+          //printf("Thread: %ld calculou para i=%d e j=%d\n",my_rank,i,j);
+	  temp = A[i*n+j]*x[j];
           aux += temp;
+        }
+        //printf("Thread: %ld acabou a sua parte de y. i = %d, aux = %lf\n",my_rank,i,aux);
+        sem_wait(&semaf[i]);
+        //printf("Thread: %ld entrou em y %d\n", my_rank, i);
+        y[i] += aux;
+        sem_post(&semaf[i]);
+        //printf("Thread: %ld saiu de y %d. Novo valor = %lf\n",my_rank,i,y[i]);
        }
-	   sem_wait(&semaf[n]);
-	   y[i] += aux;
-	   sem_post(&semaf[n]);
-    }
 	return NULL;
 }	
 
