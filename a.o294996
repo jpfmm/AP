@@ -1,0 +1,440 @@
+Tudo Pronto!!
+compute-652-2
+TEST Base ./Bases/base.65.seed.0.txt 1 THREADS N 1
+65:UPDATE Type:3, Sib:1, Level:1 -->5250657.000000 / 5581065.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4992405.000000 / 5250657.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4396756.000000 / 4992405.000000
+65:FIM Type:3, Sib:1, Level:1
+65:FIM Type:3, Sib:-1, Level:1
+65:FIM Type:2, Sib:2, Level:1
+65:FIM Type:3, Sib:1, Level:2
+65:FIM Type:3, Sib:-1, Level:2
+65:FIM Type:2, Sib:2, Level:2
+65:FIM Type:3, Sib:1, Level:3
+65:FIM Type:3, Sib:-1, Level:3
+65:FIM Type:2, Sib:2, Level:3
+65:FIM Type:2, Sib:0, Level:4
+64:FIM Type:3, Sib:1, Level:1
+64:FIM Type:3, Sib:-1, Level:1
+64:FIM Type:2, Sib:2, Level:1
+64:FIM Type:3, Sib:1, Level:2
+64:FIM Type:3, Sib:-1, Level:2
+64:FIM Type:2, Sib:2, Level:2
+64:FIM Type:3, Sib:1, Level:3
+64:FIM Type:3, Sib:-1, Level:3
+64:FIM Type:2, Sib:2, Level:3
+64:FIM Type:2, Sib:0, Level:4
+63:FIM Type:3, Sib:1, Level:1
+63:FIM Type:3, Sib:-1, Level:1
+63:FIM Type:2, Sib:2, Level:1
+63:FIM Type:3, Sib:1, Level:2
+63:FIM Type:3, Sib:-1, Level:2
+63:FIM Type:2, Sib:2, Level:2
+63:FIM Type:3, Sib:1, Level:3
+63:FIM Type:3, Sib:-1, Level:3
+63:FIM Type:2, Sib:2, Level:3
+63:FIM Type:2, Sib:0, Level:4
+62:FIM Type:3, Sib:1, Level:1
+62:FIM Type:3, Sib:-1, Level:1
+62:FIM Type:2, Sib:2, Level:1
+62:FIM Type:3, Sib:1, Level:2
+62:FIM Type:3, Sib:-1, Level:2
+62:FIM Type:2, Sib:2, Level:2
+62:FIM Type:3, Sib:1, Level:3
+62:FIM Type:3, Sib:-1, Level:3
+62:FIM Type:2, Sib:2, Level:3
+62:FIM Type:2, Sib:0, Level:4
+61:FIM Type:3, Sib:0, Level:1
+61:FIM Type:3, Sib:1, Level:1
+61:FIM Type:3, Sib:-1, Level:1
+61:FIM Type:2, Sib:2, Level:1
+60:FIM Type:3, Sib:0, Level:1
+60:FIM Type:3, Sib:1, Level:1
+60:FIM Type:3, Sib:-1, Level:1
+60:FIM Type:2, Sib:2, Level:1
+59:FIM Type:3, Sib:0, Level:1
+59:FIM Type:3, Sib:1, Level:1
+59:FIM Type:3, Sib:-1, Level:1
+59:FIM Type:2, Sib:2, Level:1
+58:FIM Type:3, Sib:0, Level:1
+58:FIM Type:3, Sib:1, Level:1
+58:FIM Type:3, Sib:-1, Level:1
+58:FIM Type:2, Sib:2, Level:1
+57:FIM Type:3, Sib:0, Level:1
+57:FIM Type:3, Sib:1, Level:1
+57:FIM Type:3, Sib:-1, Level:1
+57:FIM Type:2, Sib:2, Level:1
+56:FIM Type:3, Sib:0, Level:1
+56:FIM Type:3, Sib:1, Level:1
+56:FIM Type:3, Sib:-1, Level:1
+56:FIM Type:2, Sib:2, Level:1
+55:FIM Type:3, Sib:0, Level:1
+55:FIM Type:3, Sib:1, Level:1
+55:FIM Type:3, Sib:-1, Level:1
+55:FIM Type:2, Sib:2, Level:1
+54:FIM Type:3, Sib:0, Level:1
+54:FIM Type:3, Sib:1, Level:1
+54:FIM Type:3, Sib:-1, Level:1
+54:FIM Type:2, Sib:2, Level:1
+53:FIM Type:3, Sib:0, Level:1
+53:FIM Type:3, Sib:1, Level:1
+53:FIM Type:3, Sib:-1, Level:1
+53:FIM Type:2, Sib:2, Level:1
+52:FIM Type:3, Sib:0, Level:1
+52:FIM Type:3, Sib:1, Level:1
+52:FIM Type:3, Sib:-1, Level:1
+52:FIM Type:2, Sib:2, Level:1
+51:FIM Type:3, Sib:0, Level:1
+51:FIM Type:3, Sib:1, Level:1
+51:FIM Type:3, Sib:-1, Level:1
+51:FIM Type:2, Sib:2, Level:1
+51:FIM Type:1, Sib:1, Level:1
+50:FIM Type:1, Sib:1, Level:1
+49:FIM Type:1, Sib:1, Level:1
+48:FIM Type:1, Sib:1, Level:1
+47:FIM Type:1, Sib:1, Level:1
+46:FIM Type:1, Sib:1, Level:1
+45:FIM Type:1, Sib:1, Level:1
+44:FIM Type:1, Sib:1, Level:1
+43:FIM Type:1, Sib:1, Level:1
+42:FIM Type:1, Sib:1, Level:1
+41:FIM Type:0, Sib:1, Level:1
+****** ENUM VEC ******
+-9 8 4 4 -16 -10 8 6 -24 -9 11 -9 -8 -14 -14 -25 15 3 13 10 3 6 9 1 -1 -7 -9 1 -4 -1 4 2 3 1 -5 -4 3 -2 1 3 -6 0 1 0 1 2 -4 -3 2 -1 -4 1 -3 1 0 0 -1 1 -2 -1 0 0 1 1 1 
+******** SVP ********
+-208 109 -666 22 344 331 130 -177 129 -307 226 55 416 -148 68 393 219 136 -178 -324 -278 -85 148 376 29 -375 -25 -327 166 -21 150 -137 159 113 -103 69 -160 -137 -90 -100 -80 -86 -17 -125 -427 -203 54 28 299 -183 240 333 -181 94 -597 -675 44 -408 -153 -442 -323 4 -524 -218 42 
+******* NORM *******
+2096.84
+Time: 31392.2
+TEST Base ./Bases/base.65.seed.0.txt 1 THREADS N 2
+65:UPDATE Type:3, Sib:1, Level:1 -->5250657.000000 / 5581065.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4992405.000000 / 5250657.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4396756.000000 / 4992405.000000
+65:FIM Type:3, Sib:1, Level:1
+65:FIM Type:3, Sib:-1, Level:1
+65:FIM Type:2, Sib:2, Level:1
+65:FIM Type:3, Sib:1, Level:2
+65:FIM Type:3, Sib:-1, Level:2
+65:FIM Type:2, Sib:2, Level:2
+65:FIM Type:3, Sib:1, Level:3
+65:FIM Type:3, Sib:-1, Level:3
+65:FIM Type:2, Sib:2, Level:3
+65:FIM Type:2, Sib:0, Level:4
+64:FIM Type:3, Sib:1, Level:1
+64:FIM Type:3, Sib:-1, Level:1
+64:FIM Type:2, Sib:2, Level:1
+64:FIM Type:3, Sib:1, Level:2
+64:FIM Type:3, Sib:-1, Level:2
+64:FIM Type:2, Sib:2, Level:2
+64:FIM Type:3, Sib:1, Level:3
+64:FIM Type:3, Sib:-1, Level:3
+64:FIM Type:2, Sib:2, Level:3
+64:FIM Type:2, Sib:0, Level:4
+63:FIM Type:3, Sib:1, Level:1
+63:FIM Type:3, Sib:-1, Level:1
+63:FIM Type:2, Sib:2, Level:1
+63:FIM Type:3, Sib:1, Level:2
+63:FIM Type:3, Sib:-1, Level:2
+63:FIM Type:2, Sib:2, Level:2
+63:FIM Type:3, Sib:1, Level:3
+63:FIM Type:3, Sib:-1, Level:3
+63:FIM Type:2, Sib:2, Level:3
+63:FIM Type:2, Sib:0, Level:4
+62:FIM Type:3, Sib:1, Level:1
+62:FIM Type:3, Sib:-1, Level:1
+62:FIM Type:2, Sib:2, Level:1
+62:FIM Type:3, Sib:1, Level:2
+62:FIM Type:3, Sib:-1, Level:2
+62:FIM Type:2, Sib:2, Level:2
+62:FIM Type:3, Sib:1, Level:3
+62:FIM Type:3, Sib:-1, Level:3
+62:FIM Type:2, Sib:2, Level:3
+62:FIM Type:2, Sib:0, Level:4
+61:FIM Type:3, Sib:0, Level:1
+61:FIM Type:3, Sib:1, Level:1
+61:FIM Type:3, Sib:-1, Level:1
+61:FIM Type:2, Sib:2, Level:1
+60:FIM Type:3, Sib:0, Level:1
+60:FIM Type:3, Sib:1, Level:1
+60:FIM Type:3, Sib:-1, Level:1
+60:FIM Type:2, Sib:2, Level:1
+59:FIM Type:3, Sib:0, Level:1
+59:FIM Type:3, Sib:1, Level:1
+59:FIM Type:3, Sib:-1, Level:1
+59:FIM Type:2, Sib:2, Level:1
+58:FIM Type:3, Sib:0, Level:1
+58:FIM Type:3, Sib:1, Level:1
+58:FIM Type:3, Sib:-1, Level:1
+58:FIM Type:2, Sib:2, Level:1
+57:FIM Type:3, Sib:0, Level:1
+57:FIM Type:3, Sib:1, Level:1
+57:FIM Type:3, Sib:-1, Level:1
+57:FIM Type:2, Sib:2, Level:1
+56:FIM Type:3, Sib:0, Level:1
+56:FIM Type:3, Sib:1, Level:1
+56:FIM Type:3, Sib:-1, Level:1
+56:FIM Type:2, Sib:2, Level:1
+55:FIM Type:3, Sib:0, Level:1
+55:FIM Type:3, Sib:1, Level:1
+55:FIM Type:3, Sib:-1, Level:1
+55:FIM Type:2, Sib:2, Level:1
+54:FIM Type:3, Sib:0, Level:1
+54:FIM Type:3, Sib:1, Level:1
+54:FIM Type:3, Sib:-1, Level:1
+54:FIM Type:2, Sib:2, Level:1
+53:FIM Type:3, Sib:0, Level:1
+53:FIM Type:3, Sib:1, Level:1
+53:FIM Type:3, Sib:-1, Level:1
+53:FIM Type:2, Sib:2, Level:1
+52:FIM Type:3, Sib:0, Level:1
+52:FIM Type:3, Sib:1, Level:1
+52:FIM Type:3, Sib:-1, Level:1
+52:FIM Type:2, Sib:2, Level:1
+51:FIM Type:3, Sib:0, Level:1
+51:FIM Type:3, Sib:1, Level:1
+51:FIM Type:3, Sib:-1, Level:1
+51:FIM Type:2, Sib:2, Level:1
+51:FIM Type:1, Sib:1, Level:1
+50:FIM Type:1, Sib:1, Level:1
+49:FIM Type:1, Sib:1, Level:1
+48:FIM Type:1, Sib:1, Level:1
+47:FIM Type:1, Sib:1, Level:1
+46:FIM Type:1, Sib:1, Level:1
+45:FIM Type:1, Sib:1, Level:1
+44:FIM Type:1, Sib:1, Level:1
+43:FIM Type:1, Sib:1, Level:1
+42:FIM Type:1, Sib:1, Level:1
+41:FIM Type:0, Sib:1, Level:1
+****** ENUM VEC ******
+-9 8 4 4 -16 -10 8 6 -24 -9 11 -9 -8 -14 -14 -25 15 3 13 10 3 6 9 1 -1 -7 -9 1 -4 -1 4 2 3 1 -5 -4 3 -2 1 3 -6 0 1 0 1 2 -4 -3 2 -1 -4 1 -3 1 0 0 -1 1 -2 -1 0 0 1 1 1 
+******** SVP ********
+-208 109 -666 22 344 331 130 -177 129 -307 226 55 416 -148 68 393 219 136 -178 -324 -278 -85 148 376 29 -375 -25 -327 166 -21 150 -137 159 113 -103 69 -160 -137 -90 -100 -80 -86 -17 -125 -427 -203 54 28 299 -183 240 333 -181 94 -597 -675 44 -408 -153 -442 -323 4 -524 -218 42 
+******* NORM *******
+2096.84
+Time: 40710.4
+TEST Base ./Bases/base.65.seed.15.txt 1 THREADS N 1
+65:UPDATE Type:3, Sib:1, Level:1 -->4838393.000000 / 4876069.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4741882.999999 / 4838393.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4669427.000000 / 4741882.999999
+65:FIM Type:3, Sib:1, Level:1
+65:UPDATE Type:3, Sib:-1, Level:1 -->4633709.000000 / 4669427.000000
+65:FIM Type:3, Sib:-1, Level:1
+65:FIM Type:2, Sib:2, Level:1
+65:UPDATE Type:3, Sib:1, Level:2 -->4626980.000000 / 4633709.000000
+65:UPDATE Type:3, Sib:1, Level:2 -->4541139.000000 / 4626980.000000
+65:FIM Type:3, Sib:1, Level:2
+65:UPDATE Type:3, Sib:-1, Level:2 -->4460605.000000 / 4541139.000000
+65:FIM Type:3, Sib:-1, Level:2
+65:FIM Type:2, Sib:2, Level:2
+65:FIM Type:3, Sib:1, Level:3
+65:FIM Type:3, Sib:-1, Level:3
+65:FIM Type:2, Sib:2, Level:3
+65:FIM Type:2, Sib:0, Level:4
+64:FIM Type:3, Sib:1, Level:1
+64:FIM Type:3, Sib:-1, Level:1
+64:FIM Type:2, Sib:2, Level:1
+64:FIM Type:3, Sib:1, Level:2
+64:FIM Type:3, Sib:-1, Level:2
+64:FIM Type:2, Sib:2, Level:2
+64:FIM Type:3, Sib:1, Level:3
+64:FIM Type:3, Sib:-1, Level:3
+64:FIM Type:2, Sib:2, Level:3
+64:FIM Type:2, Sib:0, Level:4
+63:FIM Type:3, Sib:1, Level:1
+63:FIM Type:3, Sib:-1, Level:1
+63:FIM Type:2, Sib:2, Level:1
+63:FIM Type:3, Sib:1, Level:2
+63:FIM Type:3, Sib:-1, Level:2
+63:FIM Type:2, Sib:2, Level:2
+63:FIM Type:3, Sib:1, Level:3
+63:FIM Type:3, Sib:-1, Level:3
+63:FIM Type:2, Sib:2, Level:3
+63:FIM Type:2, Sib:0, Level:4
+62:FIM Type:3, Sib:1, Level:1
+62:UPDATE Type:3, Sib:-1, Level:1 -->4431243.000001 / 4460605.000000
+62:FIM Type:3, Sib:-1, Level:1
+62:FIM Type:2, Sib:2, Level:1
+62:FIM Type:3, Sib:1, Level:2
+62:FIM Type:3, Sib:-1, Level:2
+62:FIM Type:2, Sib:2, Level:2
+62:FIM Type:3, Sib:1, Level:3
+62:FIM Type:3, Sib:-1, Level:3
+62:FIM Type:2, Sib:2, Level:3
+62:FIM Type:2, Sib:0, Level:4
+61:FIM Type:3, Sib:0, Level:1
+61:FIM Type:3, Sib:1, Level:1
+61:FIM Type:3, Sib:-1, Level:1
+61:FIM Type:2, Sib:2, Level:1
+60:FIM Type:3, Sib:0, Level:1
+60:FIM Type:3, Sib:1, Level:1
+60:FIM Type:3, Sib:-1, Level:1
+60:FIM Type:2, Sib:2, Level:1
+59:FIM Type:3, Sib:0, Level:1
+59:FIM Type:3, Sib:1, Level:1
+59:FIM Type:3, Sib:-1, Level:1
+59:FIM Type:2, Sib:2, Level:1
+58:FIM Type:3, Sib:0, Level:1
+58:FIM Type:3, Sib:1, Level:1
+58:FIM Type:3, Sib:-1, Level:1
+58:FIM Type:2, Sib:2, Level:1
+57:FIM Type:3, Sib:0, Level:1
+57:FIM Type:3, Sib:1, Level:1
+57:FIM Type:3, Sib:-1, Level:1
+57:FIM Type:2, Sib:2, Level:1
+56:FIM Type:3, Sib:0, Level:1
+56:UPDATE Type:3, Sib:1, Level:1 -->4261542.000000 / 4431243.000001
+56:FIM Type:3, Sib:1, Level:1
+56:FIM Type:3, Sib:-1, Level:1
+56:FIM Type:2, Sib:2, Level:1
+55:FIM Type:3, Sib:0, Level:1
+55:FIM Type:3, Sib:1, Level:1
+55:FIM Type:3, Sib:-1, Level:1
+55:FIM Type:2, Sib:2, Level:1
+54:FIM Type:3, Sib:0, Level:1
+54:FIM Type:3, Sib:1, Level:1
+54:FIM Type:3, Sib:-1, Level:1
+54:FIM Type:2, Sib:2, Level:1
+53:FIM Type:3, Sib:0, Level:1
+53:FIM Type:3, Sib:1, Level:1
+53:FIM Type:3, Sib:-1, Level:1
+53:FIM Type:2, Sib:2, Level:1
+52:FIM Type:3, Sib:0, Level:1
+52:FIM Type:3, Sib:1, Level:1
+52:FIM Type:3, Sib:-1, Level:1
+52:FIM Type:2, Sib:2, Level:1
+51:FIM Type:3, Sib:0, Level:1
+51:FIM Type:3, Sib:1, Level:1
+51:FIM Type:3, Sib:-1, Level:1
+51:FIM Type:2, Sib:2, Level:1
+51:FIM Type:1, Sib:1, Level:1
+50:FIM Type:1, Sib:1, Level:1
+49:FIM Type:1, Sib:1, Level:1
+48:FIM Type:1, Sib:1, Level:1
+47:FIM Type:1, Sib:1, Level:1
+46:FIM Type:1, Sib:1, Level:1
+45:FIM Type:1, Sib:1, Level:1
+44:FIM Type:1, Sib:1, Level:1
+43:FIM Type:1, Sib:1, Level:1
+42:FIM Type:1, Sib:1, Level:1
+41:FIM Type:0, Sib:1, Level:1
+****** ENUM VEC ******
+3 -8 -3 -12 -6 -1 -5 -7 0 -1 -2 -1 -3 -11 5 0 -5 1 -7 -2 -1 0 4 1 1 7 2 1 -4 3 -1 2 1 1 1 0 1 -1 2 0 1 0 -2 0 1 -1 0 -1 -1 1 1 -1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+******** SVP ********
+302 -95 393 554 -272 -315 -205 -5 517 64 510 -61 -11 363 -152 154 -82 -74 -454 129 -31 -119 86 -172 -68 189 418 -24 297 248 199 -632 40 -23 -41 -148 340 24 -214 190 399 -266 22 119 181 -425 -251 -150 -61 -164 -409 243 -509 98 -35 -244 8 218 -284 64 -128 -153 -187 -300 -169 
+******* NORM *******
+2064.35
+Time: 55937.4
+TEST Base ./Bases/base.65.seed.15.txt 1 THREADS N 2
+65:UPDATE Type:3, Sib:1, Level:1 -->4838393.000000 / 4876069.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4741882.999999 / 4838393.000000
+65:UPDATE Type:3, Sib:1, Level:1 -->4669427.000000 / 4741882.999999
+65:FIM Type:3, Sib:1, Level:1
+65:UPDATE Type:3, Sib:-1, Level:1 -->4633709.000000 / 4669427.000000
+65:FIM Type:3, Sib:-1, Level:1
+65:FIM Type:2, Sib:2, Level:1
+65:UPDATE Type:3, Sib:1, Level:2 -->4626980.000000 / 4633709.000000
+65:UPDATE Type:3, Sib:1, Level:2 -->4541139.000000 / 4626980.000000
+65:FIM Type:3, Sib:1, Level:2
+65:UPDATE Type:3, Sib:-1, Level:2 -->4460605.000000 / 4541139.000000
+65:FIM Type:3, Sib:-1, Level:2
+65:FIM Type:2, Sib:2, Level:2
+65:FIM Type:3, Sib:1, Level:3
+65:FIM Type:3, Sib:-1, Level:3
+65:FIM Type:2, Sib:2, Level:3
+65:FIM Type:2, Sib:0, Level:4
+64:FIM Type:3, Sib:1, Level:1
+64:FIM Type:3, Sib:-1, Level:1
+64:FIM Type:2, Sib:2, Level:1
+64:FIM Type:3, Sib:1, Level:2
+64:FIM Type:3, Sib:-1, Level:2
+64:FIM Type:2, Sib:2, Level:2
+64:FIM Type:3, Sib:1, Level:3
+64:FIM Type:3, Sib:-1, Level:3
+64:FIM Type:2, Sib:2, Level:3
+64:FIM Type:2, Sib:0, Level:4
+63:FIM Type:3, Sib:1, Level:1
+63:FIM Type:3, Sib:-1, Level:1
+63:FIM Type:2, Sib:2, Level:1
+63:FIM Type:3, Sib:1, Level:2
+63:FIM Type:3, Sib:-1, Level:2
+63:FIM Type:2, Sib:2, Level:2
+63:FIM Type:3, Sib:1, Level:3
+63:FIM Type:3, Sib:-1, Level:3
+63:FIM Type:2, Sib:2, Level:3
+63:FIM Type:2, Sib:0, Level:4
+62:FIM Type:3, Sib:1, Level:1
+62:UPDATE Type:3, Sib:-1, Level:1 -->4431243.000001 / 4460605.000000
+62:FIM Type:3, Sib:-1, Level:1
+62:FIM Type:2, Sib:2, Level:1
+62:FIM Type:3, Sib:1, Level:2
+62:FIM Type:3, Sib:-1, Level:2
+62:FIM Type:2, Sib:2, Level:2
+62:FIM Type:3, Sib:1, Level:3
+62:FIM Type:3, Sib:-1, Level:3
+62:FIM Type:2, Sib:2, Level:3
+62:FIM Type:2, Sib:0, Level:4
+61:FIM Type:3, Sib:0, Level:1
+61:FIM Type:3, Sib:1, Level:1
+61:FIM Type:3, Sib:-1, Level:1
+61:FIM Type:2, Sib:2, Level:1
+60:FIM Type:3, Sib:0, Level:1
+60:FIM Type:3, Sib:1, Level:1
+60:FIM Type:3, Sib:-1, Level:1
+60:FIM Type:2, Sib:2, Level:1
+59:FIM Type:3, Sib:0, Level:1
+59:FIM Type:3, Sib:1, Level:1
+59:FIM Type:3, Sib:-1, Level:1
+59:FIM Type:2, Sib:2, Level:1
+58:FIM Type:3, Sib:0, Level:1
+58:FIM Type:3, Sib:1, Level:1
+58:FIM Type:3, Sib:-1, Level:1
+58:FIM Type:2, Sib:2, Level:1
+57:FIM Type:3, Sib:0, Level:1
+57:FIM Type:3, Sib:1, Level:1
+57:FIM Type:3, Sib:-1, Level:1
+57:FIM Type:2, Sib:2, Level:1
+56:FIM Type:3, Sib:0, Level:1
+56:UPDATE Type:3, Sib:1, Level:1 -->4261542.000000 / 4431243.000001
+56:FIM Type:3, Sib:1, Level:1
+56:FIM Type:3, Sib:-1, Level:1
+56:FIM Type:2, Sib:2, Level:1
+55:FIM Type:3, Sib:0, Level:1
+55:FIM Type:3, Sib:1, Level:1
+55:FIM Type:3, Sib:-1, Level:1
+55:FIM Type:2, Sib:2, Level:1
+54:FIM Type:3, Sib:0, Level:1
+54:FIM Type:3, Sib:1, Level:1
+54:FIM Type:3, Sib:-1, Level:1
+54:FIM Type:2, Sib:2, Level:1
+53:FIM Type:3, Sib:0, Level:1
+53:FIM Type:3, Sib:1, Level:1
+53:FIM Type:3, Sib:-1, Level:1
+53:FIM Type:2, Sib:2, Level:1
+52:FIM Type:3, Sib:0, Level:1
+52:FIM Type:3, Sib:1, Level:1
+52:FIM Type:3, Sib:-1, Level:1
+52:FIM Type:2, Sib:2, Level:1
+51:FIM Type:3, Sib:0, Level:1
+51:FIM Type:3, Sib:1, Level:1
+51:FIM Type:3, Sib:-1, Level:1
+51:FIM Type:2, Sib:2, Level:1
+51:FIM Type:1, Sib:1, Level:1
+50:FIM Type:1, Sib:1, Level:1
+49:FIM Type:1, Sib:1, Level:1
+48:FIM Type:1, Sib:1, Level:1
+47:FIM Type:1, Sib:1, Level:1
+46:FIM Type:1, Sib:1, Level:1
+45:FIM Type:1, Sib:1, Level:1
+44:FIM Type:1, Sib:1, Level:1
+43:FIM Type:1, Sib:1, Level:1
+42:FIM Type:1, Sib:1, Level:1
+41:FIM Type:0, Sib:1, Level:1
+****** ENUM VEC ******
+3 -8 -3 -12 -6 -1 -5 -7 0 -1 -2 -1 -3 -11 5 0 -5 1 -7 -2 -1 0 4 1 1 7 2 1 -4 3 -1 2 1 1 1 0 1 -1 2 0 1 0 -2 0 1 -1 0 -1 -1 1 1 -1 1 0 1 1 0 0 0 0 0 0 0 0 0 
+******** SVP ********
+302 -95 393 554 -272 -315 -205 -5 517 64 510 -61 -11 363 -152 154 -82 -74 -454 129 -31 -119 86 -172 -68 189 418 -24 297 248 199 -632 40 -23 -41 -148 340 24 -214 190 399 -266 22 119 181 -425 -251 -150 -61 -164 -409 243 -509 98 -35 -244 8 218 -284 64 -128 -153 -187 -300 -169 
+******* NORM *******
+2064.35
+Time: 45920.8
+TEST Base ./Bases/base.70.seed.0.txt 1 THREADS N 1
+=>> PBS: job killed: walltime 180031 exceeded limit 180000
